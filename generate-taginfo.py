@@ -14,8 +14,8 @@ TAGINFO["project"] = {
 	"project_url": "https://openstop.app/",
 	"doc_url": "https://github.com/OPENER-next/OpenStop",
 	"icon_url": "https://raw.githubusercontent.com/OPENER-next/OpenStop/master/web/favicon.png",
-	"contact_name": "OPENER NEXT",
-	"contact_email": "FIXME"
+	"contact_name": "OPENER next",
+	"contact_email": "openernext@etit.tu-chemnitz.de"
 }
 TAGINFO["tags"] = []
 
