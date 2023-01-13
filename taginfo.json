@@ -1,15 +1,15 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/OPENER-next/OpenStop-taginfo/main/taginfo.json",
-    "data_updated": "20230113T135130Z",
+    "data_updated": "20230113T143639Z",
     "project": {
         "name": "OpenStop",
         "description": "App for collecting OpenStreetMap-compliant accessibility data in public transport",
         "project_url": "https://openstop.app/",
         "doc_url": "https://github.com/OPENER-next/OpenStop",
         "icon_url": "https://raw.githubusercontent.com/OPENER-next/OpenStop/master/web/favicon.png",
-        "contact_name": "OPENER NEXT",
-        "contact_email": "FIXME"
+        "contact_name": "OPENER next",
+        "contact_email": "openernext@etit.tu-chemnitz.de"
     },
     "tags": [
         {
@@ -18,7 +18,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Ist die Fahrkartenverkaufsstelle rollstuhlgerecht?\"."
         },
@@ -28,7 +29,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Ist die Fahrkartenverkaufsstelle rollstuhlgerecht?\"."
         },
@@ -38,7 +40,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Ist die Informationsstelle rollstuhlgerecht?\"."
         },
@@ -48,7 +51,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Ist die Informationsstelle rollstuhlgerecht?\"."
         },
@@ -58,7 +62,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Um welche Art von Parkplatz handelt es sich?\"."
         },
@@ -68,7 +73,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Um welche Art von Parkplatz handelt es sich?\"."
         },
@@ -78,7 +84,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Um welche Art von Parkplatz handelt es sich?\"."
         },
@@ -88,7 +95,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Um welche Art von Parkplatz handelt es sich?\"."
         },
@@ -98,7 +106,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es gesonderte Parkpl\u00c3\u00a4tze f\u00c3\u00bcr behinderte Personen?\"."
         },
@@ -108,7 +117,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es gesonderte Parkpl\u00c3\u00a4tze f\u00c3\u00bcr behinderte Personen?\"."
         },
@@ -118,7 +128,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Ist dies ein Park+Ride-Parkplatz?\"."
         },
@@ -128,7 +139,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Ist dies ein Park+Ride-Parkplatz?\"."
         },
@@ -138,7 +150,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Fallen f\u00c3\u00bcr das Parken Geb\u00c3\u00bchren an?\"."
         },
@@ -148,7 +161,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Fallen f\u00c3\u00bcr das Parken Geb\u00c3\u00bchren an?\"."
         },
@@ -158,7 +172,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"F\u00c3\u00bcr wen sind die Toiletten zug\u00c3\u00a4nglich?\"."
         },
@@ -168,7 +183,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"F\u00c3\u00bcr wen sind die Toiletten zug\u00c3\u00a4nglich?\"."
         },
@@ -178,7 +194,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"F\u00c3\u00bcr wen sind die Toiletten zug\u00c3\u00a4nglich?\"."
         },
@@ -188,7 +205,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Ist die Nutzung der Toilette kostenpflichtig?\"."
         },
@@ -198,7 +216,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Ist die Nutzung der Toilette kostenpflichtig?\"."
         },
@@ -208,7 +227,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es an der Plattform Sitzpl\u00c3\u00a4tze?\"."
         },
@@ -218,7 +238,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es an der Plattform Sitzpl\u00c3\u00a4tze?\"."
         },
@@ -228,7 +249,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es an der Plattform einen \u00c3\u00bcberdachten Wartebereich?\"."
         },
@@ -238,7 +260,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es an der Plattform einen \u00c3\u00bcberdachten Wartebereich?\"."
         },
@@ -248,7 +271,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es eine Fahrplan-Anzeige f\u00c3\u00bcr die gesamte Station?\"."
         },
@@ -258,7 +282,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es eine Fahrplan-Anzeige f\u00c3\u00bcr die gesamte Station?\"."
         },
@@ -268,7 +293,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es eine Fahrplan-Anzeige f\u00c3\u00bcr die gesamte Station?\"."
         },
@@ -278,7 +304,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Hat die Fahrplan-Anzeige f\u00c3\u00bcr die gesamte Station eine akustische Ausgabe?\"."
         },
@@ -288,7 +315,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Hat die Fahrplan-Anzeige f\u00c3\u00bcr die gesamte Station eine akustische Ausgabe?\"."
         },
@@ -298,7 +326,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es einen dynamischen Fahrtziel-Anzeiger an der Plattform?\"."
         },
@@ -308,7 +337,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es einen dynamischen Fahrtziel-Anzeiger an der Plattform?\"."
         },
@@ -318,7 +348,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Hat der dynamische Fahrtziel-Anzeiger an der Plattform eine akustische Ausgabe?\"."
         },
@@ -328,7 +359,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Hat der dynamische Fahrtziel-Anzeiger an der Plattform eine akustische Ausgabe?\"."
         },
@@ -338,7 +370,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es Ansagen \u00c3\u00bcber Lautsprecher an der Plattform?\"."
         },
@@ -348,7 +381,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es Ansagen \u00c3\u00bcber Lautsprecher an der Plattform?\"."
         },
@@ -358,7 +392,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Von welcher Art sind die Ansagen an der Plattform?\"."
         },
@@ -368,7 +403,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Von welcher Art sind die Ansagen an der Plattform?\"."
         },
@@ -378,7 +414,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Von welcher Art sind die Ansagen an der Plattform?\"."
         },
@@ -388,7 +425,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Hat die Plattform an der Fahrbahnseite einen Bordstein?\"."
         },
@@ -398,7 +436,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Hat die Plattform an der Fahrbahnseite einen Bordstein?\"."
         },
@@ -408,7 +447,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel h\u00c3\u00a4lt?\"."
         },
@@ -418,7 +458,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel h\u00c3\u00a4lt?\"."
         },
@@ -428,7 +469,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel h\u00c3\u00a4lt?\"."
         },
@@ -438,7 +480,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Hat der Bordstein eine Anfahrtshilfe f\u00c3\u00bcr Busse?\"."
         },
@@ -448,7 +491,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Hat der Bordstein eine Anfahrtshilfe f\u00c3\u00bcr Busse?\"."
         },
@@ -458,7 +502,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Wie sieht die Anfahrtshilfe f\u00c3\u00bcr Busse aus?\"."
         },
@@ -468,7 +513,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Wie sieht die Anfahrtshilfe f\u00c3\u00bcr Busse aus?\"."
         },
@@ -478,7 +524,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Wie sieht die Anfahrtshilfe f\u00c3\u00bcr Busse aus?\"."
         },
@@ -488,7 +535,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es eine bewegbare Rollstuhl-Rampe?\"."
         },
@@ -498,7 +546,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es eine bewegbare Rollstuhl-Rampe?\"."
         },
@@ -508,7 +557,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es einen bewegbaren Hublift f\u00c3\u00bcr Rollstuhlfahrende?\"."
         },
@@ -518,7 +568,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es einen bewegbaren Hublift f\u00c3\u00bcr Rollstuhlfahrende?\"."
         },
@@ -528,7 +579,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Hat dieser Durchgang eine T\u00c3\u00bcr?\"."
         },
@@ -538,7 +590,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Hat dieser Durchgang eine T\u00c3\u00bcr?\"."
         },
@@ -548,7 +601,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Welche Art von T\u00c3\u00bcr ist verbaut?\"."
         },
@@ -558,7 +612,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Welche Art von T\u00c3\u00bcr ist verbaut?\"."
         },
@@ -568,7 +623,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Welche Art von T\u00c3\u00bcr ist verbaut?\"."
         },
@@ -578,7 +634,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Welche Art von T\u00c3\u00bcr ist verbaut?\"."
         },
@@ -588,7 +645,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"\u00c3\u2013ffnet die T\u00c3\u00bcr automatisch?\"."
         },
@@ -598,7 +656,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"\u00c3\u2013ffnet die T\u00c3\u00bcr automatisch?\"."
         },
@@ -608,7 +667,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Wodurch \u00c3\u00b6ffnet sich die Automatik-T\u00c3\u00bcr?\"."
         },
@@ -618,7 +678,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Wodurch \u00c3\u00b6ffnet sich die Automatik-T\u00c3\u00bcr?\"."
         },
@@ -628,7 +689,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Wodurch \u00c3\u00b6ffnet sich die Automatik-T\u00c3\u00bcr?\"."
         },
@@ -638,7 +700,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Wie ist der Boden beschaffen?\"."
         },
@@ -648,7 +711,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Wie ist der Boden beschaffen?\"."
         },
@@ -658,7 +722,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es Bodenindikatoren auf der Plattform?\"."
         },
@@ -668,7 +733,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es Bodenindikatoren auf der Plattform?\"."
         },
@@ -678,7 +744,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Wie ist der Aufbau der Umlaufsperre?\"."
         },
@@ -688,7 +755,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Wie ist der Aufbau der Umlaufsperre?\"."
         },
@@ -698,7 +766,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Wie ist der Aufbau der Umlaufsperre?\"."
         },
@@ -708,7 +777,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Wie ist der Aufbau der Umlaufsperre?\"."
         },
@@ -718,7 +788,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es an der Treppe einen Treppenlift f\u00c3\u00bcr Rollstuhlfahrende?\"."
         },
@@ -728,7 +799,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es an der Treppe einen Treppenlift f\u00c3\u00bcr Rollstuhlfahrende?\"."
         },
@@ -738,7 +810,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Ist auf den Bedienelementen Blindenschrift vorhanden?\"."
         },
@@ -748,7 +821,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Ist auf den Bedienelementen Blindenschrift vorhanden?\"."
         },
@@ -758,7 +832,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es im Fahrstuhl eine Ansage, auf welcher Etage man sich befindet?\"."
         },
@@ -768,7 +843,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es im Fahrstuhl eine Ansage, auf welcher Etage man sich befindet?\"."
         },
@@ -778,7 +854,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Ist auf dem Handlauf Blindenschrift vorhanden?\"."
         },
@@ -788,7 +865,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Ist auf dem Handlauf Blindenschrift vorhanden?\"."
         },
@@ -798,7 +876,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Hat die Treppe einen Handlauf?\"."
         },
@@ -808,7 +887,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Hat die Treppe einen Handlauf?\"."
         },
@@ -818,7 +898,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Welche Art von F\u00c3\u00bc\u00c3\u0178g\u00c3\u00a4nger\u00c3\u00bcbergang ist das?\"."
         },
@@ -828,7 +909,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Welche Art von F\u00c3\u00bc\u00c3\u0178g\u00c3\u00a4nger\u00c3\u00bcbergang ist das?\"."
         },
@@ -838,7 +920,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Welche Art von F\u00c3\u00bc\u00c3\u0178g\u00c3\u00a4nger\u00c3\u00bcbergang ist das?\"."
         },
@@ -848,7 +931,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Welche Art von F\u00c3\u00bc\u00c3\u0178g\u00c3\u00a4nger\u00c3\u00bcbergang ist das?\"."
         },
@@ -858,7 +942,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Hat die Fu\u00c3\u0178g\u00c3\u00a4ngerampel einen Anforderungstaster?\"."
         },
@@ -868,7 +953,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Hat die Fu\u00c3\u0178g\u00c3\u00a4ngerampel einen Anforderungstaster?\"."
         },
@@ -878,7 +964,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Hat die Fu\u00c3\u0178g\u00c3\u00a4ngerampel einen tastbaren Pfeil f\u00c3\u00bcr Blinde?\"."
         },
@@ -888,7 +975,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Hat die Fu\u00c3\u0178g\u00c3\u00a4ngerampel einen tastbaren Pfeil f\u00c3\u00bcr Blinde?\"."
         },
@@ -898,7 +986,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es an der Fu\u00c3\u0178g\u00c3\u00a4ngerampel akustische Signale f\u00c3\u00bcr Blinde?\"."
         },
@@ -908,7 +997,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es an der Fu\u00c3\u0178g\u00c3\u00a4ngerampel akustische Signale f\u00c3\u00bcr Blinde?\"."
         },
@@ -918,7 +1008,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es an der Fu\u00c3\u0178g\u00c3\u00a4ngerampel einen Vibrations-Signalgeber f\u00c3\u00bcr Blinde?\"."
         },
@@ -928,7 +1019,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es an der Fu\u00c3\u0178g\u00c3\u00a4ngerampel einen Vibrations-Signalgeber f\u00c3\u00bcr Blinde?\"."
         },
@@ -938,7 +1030,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Welche Art von Bordstein ist an dieser Stelle?\"."
         },
@@ -948,7 +1041,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Welche Art von Bordstein ist an dieser Stelle?\"."
         },
@@ -958,7 +1052,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Welche Art von Bordstein ist an dieser Stelle?\"."
         },
@@ -968,7 +1063,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es an dieser Stelle Bodenindikatoren?\"."
         },
@@ -978,7 +1074,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es an dieser Stelle Bodenindikatoren?\"."
         },
@@ -988,7 +1085,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es eine akustisches Warnsignal bei Durchfahrt der Stra\u00c3\u0178enbahn?\"."
         },
@@ -998,7 +1096,8 @@
             "object_types": [
                 "node",
                 "way",
-                "relation"
+                "relation",
+                "area"
             ],
             "description": "Added as possible answer to the question \"Gibt es eine akustisches Warnsignal bei Durchfahrt der Stra\u00c3\u0178enbahn?\"."
         }
