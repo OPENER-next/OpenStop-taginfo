@@ -100,7 +100,9 @@ TAGINFO["tags"] = TAGS
 with open(os.path.join(json_dir, "taginfo.json"), "w") as f:
 	json.dump(TAGINFO, f, indent=4)
 
-
+# Delete the files we just downloaded
+os.remove(os.path.join(json_dir, "map_feature_collection.json"))
+os.remove(os.path.join(json_dir, "question_catalog.json"))
 
 
 
