@@ -74,9 +74,9 @@ for feature in map_feature_collection:
 				object_types = ["way"]
 			elif condition["osm_element"] == "Relation":
 				object_types = ["relation"]
-		# if object_types is still empty, then set it to ["node", "way", "relation"]
+		# if object_types is still empty, then set it to ["node", "way", "relation", "area"]
 		if len(object_types) == 0:
-			object_types = ["node", "way", "relation"]
+			object_types = ["node", "way", "relation", "area"]
 		for key, value in condition["osm_tags"].items():
 			AddToTags(key, value, object_types, "Used to identify and display \"" + str(feature["name"]) + "\" on the map.")
 """
@@ -91,7 +91,7 @@ for question in question_catalog:
 		if "osm_tags" not in answer:
 			continue
 		for key, value in answer["osm_tags"].items():
-			AddToTags(key, value, ["node", "way", "relation"], "Added as possible answer to the question \"" + str(question["question"]["text"]) + "\".")
+			AddToTags(key, value, ["node", "way", "relation", "area"], "Added as possible answer to the question \"" + str(question["question"]["text"]) + "\".")
 
 
 TAGINFO["tags"] = TAGS
