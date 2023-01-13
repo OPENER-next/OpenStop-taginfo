@@ -6,7 +6,7 @@ TAGINFO = {}
 
 # Set up the basic parameters
 TAGINFO["data_format"] = 1
-TAGINFO["data_url"] = "FIXME"
+TAGINFO["data_url"] = "https://raw.githubusercontent.com/OPENER-next/OpenStop-taginfo/main/taginfo.json"
 TAGINFO["data_updated"] = datetime.strftime(datetime.now(), '%Y%m%dT%H%M%SZ')
 TAGINFO["project"] = {
 	"name": "OpenStop",
@@ -36,7 +36,6 @@ def AddToTags(key, value, object_types, description):
 
 
 # the directory where the .json-Files are located
-#json_dir = "~/Nextcloud/Documents/TU Chemnitz/Hiwi/OPENER/OpenStop-master/assets/datasets"
 json_dir = ""
 
 # load the files "map_feature_collection.json" and "question_catalog.json"
