@@ -7,23 +7,23 @@ on:
 jobs:
     build:
         runs-on: ubuntu-latest
-    steps:
-      - name: checkout repo content
-        uses: actions/checkout@v2
-      - name: setup python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.7.7'
-      - name: execute py script
-        run: python genrate-taginfo.py
-      - name: commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
-          git commit -m "update taginfo.json" -a
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+        steps:
+          - name: checkout repo content
+            uses: actions/checkout@v2
+          - name: setup python
+            uses: actions/setup-python@v2
+            with:
+              python-version: '3.7.7'
+          - name: execute py script
+            run: python genrate-taginfo.py
+          - name: commit files
+            run: |
+              git config --local user.email "action@github.com"
+              git config --local user.name "GitHub Action"
+              git add -A
+              git commit -m "update taginfo.json" -a
+          - name: push changes
+            uses: ad-m/github-push-action@v0.6.0
+            with:
+              github_token: ${{ secrets.GITHUB_TOKEN }}
+              branch: main
