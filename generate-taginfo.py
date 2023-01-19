@@ -32,6 +32,9 @@ def AddToTags(key, value, object_types, description):
 	t["description"] = description
 	TAGS.append(t)
 
+def OpenStopTypeToTaginfoType(s):
+	d = {"OpenWay": "way", "ClosedWay": "area", "Node":"node", "Relation":"relation"}
+	return d[s]
 
 
 
@@ -48,7 +51,7 @@ with open(os.path.join(json_dir, "map_feature_collection.json")) as f:
 	map_feature_collection = json.load(f)
 
 # load the file "question_catalog.json"
-with open(os.path.join(json_dir, "question_catalog.json")) as f:
+with open(os.path.join(json_dir, "question_catalog.json"), "r", encoding="utf8") as f:
 	question_catalog = json.load(f)
 
 
@@ -87,18 +90,30 @@ for feature in map_feature_collection:
 for question in question_catalog:
 	if "input" not in question["answer"]:
 		continue
+	# if there is a value "osm_element" in the condition, get the elements and set them as objecttypes
+	objecttypes = ["node", "way", "relation", "area"]
+	if "conditions" in question:
+		if "osm_element" in question["conditions"][0]:
+			objecttypes = []
+			# get what type of data is stored at question["conditions"][0]["osm_element"]
+			if isinstance(question["conditions"][0]["osm_element"], str):
+				objecttypes.append(OpenStopTypeToTaginfoType(question["conditions"][0]["osm_element"]))
+			elif isinstance(question["conditions"][0]["osm_element"], list):
+				for t in question["conditions"][0]["osm_element"]:
+					objecttypes.append(OpenStopTypeToTaginfoType(t))
+
 	for answer in question["answer"]["input"]:
 		if "osm_tags" not in answer:
 			continue
 		for key, value in answer["osm_tags"].items():
-			AddToTags(key, value, ["node", "way", "relation", "area"], "Added as possible answer to the question \"" + str(question["question"]["text"]) + "\".")
+			AddToTags(key, value, objecttypes, "Added as possible answer to the question \"" + str(question["question"]["text"]) + "\".")
 
 
 TAGINFO["tags"] = TAGS
 
 # write the taginfo.json file
-with open(os.path.join(json_dir, "taginfo.json"), "w") as f:
-	json.dump(TAGINFO, f, indent=4)
+with open(os.path.join(json_dir, "taginfo.json"), "w", encoding="utf8") as f:
+	f.write(json.dumps(TAGINFO, indent=4, ensure_ascii=False))
 
 # Delete the files we just downloaded
 os.remove(os.path.join(json_dir, "map_feature_collection.json"))
