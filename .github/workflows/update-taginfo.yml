@@ -14,7 +14,7 @@ jobs:
             with:
               python-version: '3.9.16'
           - name: execute py script
-            run: python genrate-taginfo.py
+            run: python generate-taginfo.py
           - name: commit files
             run: |
               git config --local user.email "action@github.com"
