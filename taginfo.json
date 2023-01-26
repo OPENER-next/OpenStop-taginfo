@@ -1,7 +1,7 @@
 {
     "data_format": 1,
     "data_url": "https://raw.githubusercontent.com/OPENER-next/OpenStop-taginfo/main/taginfo.json",
-    "data_updated": "20230126T235456Z",
+    "data_updated": "20230126T155109Z",
     "project": {
         "name": "OpenStop",
         "description": "App for collecting OpenStreetMap-compliant accessibility data in public transport",
@@ -21,7 +21,7 @@
                 "relation",
                 "area"
             ],
-            "description": " Added by \"\"Ist die Fahrkartenverkaufsstelle rollstuhlgerecht?\", Ist die Informationsstelle rollstuhlgerecht?\" and \"Für wen sind die Toiletten zugänglich?\" questions."
+            "description": "Added as possible answer to the question \"Ist die Fahrkartenverkaufsstelle rollstuhlgerecht?\"."
         },
         {
             "key": "wheelchair",
@@ -32,7 +32,29 @@
                 "relation",
                 "area"
             ],
-            "description": " Added by \"\"Ist die Fahrkartenverkaufsstelle rollstuhlgerecht?\", Ist die Informationsstelle rollstuhlgerecht?\" and \"Für wen sind die Toiletten zugänglich?\" questions."
+            "description": "Added as possible answer to the question \"Ist die Fahrkartenverkaufsstelle rollstuhlgerecht?\"."
+        },
+        {
+            "key": "wheelchair",
+            "value": "yes",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added as possible answer to the question \"Ist die Informationsstelle rollstuhlgerecht?\"."
+        },
+        {
+            "key": "wheelchair",
+            "value": "no",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added as possible answer to the question \"Ist die Informationsstelle rollstuhlgerecht?\"."
         },
         {
             "key": "parking",
@@ -43,7 +65,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Um welche Art von Parkplatz handelt es sich?\" question."
+            "description": "Added as possible answer to the question \"Um welche Art von Parkplatz handelt es sich?\"."
         },
         {
             "key": "parking",
@@ -54,7 +76,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Um welche Art von Parkplatz handelt es sich?\" question."
+            "description": "Added as possible answer to the question \"Um welche Art von Parkplatz handelt es sich?\"."
         },
         {
             "key": "parking",
@@ -65,7 +87,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Um welche Art von Parkplatz handelt es sich?\" question."
+            "description": "Added as possible answer to the question \"Um welche Art von Parkplatz handelt es sich?\"."
         },
         {
             "key": "parking",
@@ -76,7 +98,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Um welche Art von Parkplatz handelt es sich?\" question."
+            "description": "Added as possible answer to the question \"Um welche Art von Parkplatz handelt es sich?\"."
         },
         {
             "key": "capacity:disabled",
@@ -87,7 +109,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es gesonderte Parkplätze für behinderte Personen?\" question."
+            "description": "Added as possible answer to the question \"Gibt es gesonderte Parkplätze für behinderte Personen?\"."
         },
         {
             "key": "capacity:disabled",
@@ -98,7 +120,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es gesonderte Parkplätze für behinderte Personen?\" question."
+            "description": "Added as possible answer to the question \"Gibt es gesonderte Parkplätze für behinderte Personen?\"."
         },
         {
             "key": "park_ride",
@@ -109,7 +131,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Ist dies ein Park+Ride-Parkplatz?\" question."
+            "description": "Added as possible answer to the question \"Ist dies ein Park+Ride-Parkplatz?\"."
         },
         {
             "key": "park_ride",
@@ -120,7 +142,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Ist dies ein Park+Ride-Parkplatz?\" question."
+            "description": "Added as possible answer to the question \"Ist dies ein Park+Ride-Parkplatz?\"."
         },
         {
             "key": "fee",
@@ -131,7 +153,7 @@
                 "relation",
                 "area"
             ],
-            "description": " Added by \"Fallen für das Parken Gebühren an?\" and \"Ist die Nutzung der Toilette kostenpflichtig?\" questions."
+            "description": "Added as possible answer to the question \"Fallen für das Parken Gebühren an?\"."
         },
         {
             "key": "fee",
@@ -142,7 +164,7 @@
                 "relation",
                 "area"
             ],
-            "description": " Added by \"Fallen für das Parken Gebühren an?\" and \"Ist die Nutzung der Toilette kostenpflichtig?\" questions."
+            "description": "Added as possible answer to the question \"Fallen für das Parken Gebühren an?\"."
         },
         {
             "key": "wheelchair",
@@ -153,7 +175,51 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Für wen sind die Toiletten zugänglich?\" question."
+            "description": "Added as possible answer to the question \"Für wen sind die Toiletten zugänglich?\"."
+        },
+        {
+            "key": "wheelchair",
+            "value": "yes",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added as possible answer to the question \"Für wen sind die Toiletten zugänglich?\"."
+        },
+        {
+            "key": "wheelchair",
+            "value": "no",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added as possible answer to the question \"Für wen sind die Toiletten zugänglich?\"."
+        },
+        {
+            "key": "fee",
+            "value": "yes",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added as possible answer to the question \"Ist die Nutzung der Toilette kostenpflichtig?\"."
+        },
+        {
+            "key": "fee",
+            "value": "no",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added as possible answer to the question \"Ist die Nutzung der Toilette kostenpflichtig?\"."
         },
         {
             "key": "bench",
@@ -164,7 +230,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es an der Plattform Sitzplätze?\" question."
+            "description": "Added as possible answer to the question \"Gibt es an der Plattform Sitzplätze?\"."
         },
         {
             "key": "bench",
@@ -175,7 +241,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es an der Plattform Sitzplätze?\" question."
+            "description": "Added as possible answer to the question \"Gibt es an der Plattform Sitzplätze?\"."
         },
         {
             "key": "shelter",
@@ -186,7 +252,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es an der Plattform einen überdachten Wartebereich?\" question."
+            "description": "Added as possible answer to the question \"Gibt es an der Plattform einen überdachten Wartebereich?\"."
         },
         {
             "key": "shelter",
@@ -197,7 +263,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es an der Plattform einen überdachten Wartebereich?\" question."
+            "description": "Added as possible answer to the question \"Gibt es an der Plattform einen überdachten Wartebereich?\"."
         },
         {
             "key": "departures_board",
@@ -208,7 +274,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es eine Fahrplan-Anzeige für die gesamte Station?\" question."
+            "description": "Added as possible answer to the question \"Gibt es eine Fahrplan-Anzeige für die gesamte Station?\"."
         },
         {
             "key": "departures_board",
@@ -219,7 +285,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es eine Fahrplan-Anzeige für die gesamte Station?\" question."
+            "description": "Added as possible answer to the question \"Gibt es eine Fahrplan-Anzeige für die gesamte Station?\"."
         },
         {
             "key": "departures_board",
@@ -230,7 +296,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es eine Fahrplan-Anzeige für die gesamte Station?\" question."
+            "description": "Added as possible answer to the question \"Gibt es eine Fahrplan-Anzeige für die gesamte Station?\"."
         },
         {
             "key": "departures_board:speech_output",
@@ -241,7 +307,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Hat die Fahrplan-Anzeige für die gesamte Station eine akustische Ausgabe?\" question."
+            "description": "Added as possible answer to the question \"Hat die Fahrplan-Anzeige für die gesamte Station eine akustische Ausgabe?\"."
         },
         {
             "key": "departures_board:speech_output",
@@ -252,7 +318,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Hat die Fahrplan-Anzeige für die gesamte Station eine akustische Ausgabe?\" question."
+            "description": "Added as possible answer to the question \"Hat die Fahrplan-Anzeige für die gesamte Station eine akustische Ausgabe?\"."
         },
         {
             "key": "passenger_information_display",
@@ -263,7 +329,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es einen dynamischen Fahrtziel-Anzeiger an der Plattform?\" question."
+            "description": "Added as possible answer to the question \"Gibt es einen dynamischen Fahrtziel-Anzeiger an der Plattform?\"."
         },
         {
             "key": "passenger_information_display",
@@ -274,7 +340,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es einen dynamischen Fahrtziel-Anzeiger an der Plattform?\" question."
+            "description": "Added as possible answer to the question \"Gibt es einen dynamischen Fahrtziel-Anzeiger an der Plattform?\"."
         },
         {
             "key": "passenger_information_display:speech_output",
@@ -285,7 +351,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Hat der dynamische Fahrtziel-Anzeiger an der Plattform eine akustische Ausgabe?\" question."
+            "description": "Added as possible answer to the question \"Hat der dynamische Fahrtziel-Anzeiger an der Plattform eine akustische Ausgabe?\"."
         },
         {
             "key": "passenger_information_display:speech_output",
@@ -296,7 +362,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Hat der dynamische Fahrtziel-Anzeiger an der Plattform eine akustische Ausgabe?\" question."
+            "description": "Added as possible answer to the question \"Hat der dynamische Fahrtziel-Anzeiger an der Plattform eine akustische Ausgabe?\"."
         },
         {
             "key": "announcement",
@@ -307,7 +373,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es Ansagen über Lautsprecher an der Plattform?\" question."
+            "description": "Added as possible answer to the question \"Gibt es Ansagen über Lautsprecher an der Plattform?\"."
         },
         {
             "key": "announcement",
@@ -318,7 +384,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es Ansagen über Lautsprecher an der Plattform?\" question."
+            "description": "Added as possible answer to the question \"Gibt es Ansagen über Lautsprecher an der Plattform?\"."
         },
         {
             "key": "announcement",
@@ -329,7 +395,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Von welcher Art sind die Ansagen an der Plattform?\" question."
+            "description": "Added as possible answer to the question \"Von welcher Art sind die Ansagen an der Plattform?\"."
         },
         {
             "key": "announcement",
@@ -340,7 +406,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Von welcher Art sind die Ansagen an der Plattform?\" question."
+            "description": "Added as possible answer to the question \"Von welcher Art sind die Ansagen an der Plattform?\"."
         },
         {
             "key": "announcement",
@@ -351,7 +417,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Von welcher Art sind die Ansagen an der Plattform?\" question."
+            "description": "Added as possible answer to the question \"Von welcher Art sind die Ansagen an der Plattform?\"."
         },
         {
             "key": "kerb",
@@ -360,7 +426,7 @@
                 "way",
                 "area"
             ],
-            "description": "Added by \"Hat die Plattform an der Fahrbahnseite einen Bordstein?\" question."
+            "description": "Added as possible answer to the question \"Hat die Plattform an der Fahrbahnseite einen Bordstein?\"."
         },
         {
             "key": "kerb",
@@ -369,7 +435,7 @@
                 "way",
                 "area"
             ],
-            "description": "Added by \"Hat die Plattform an der Fahrbahnseite einen Bordstein?\" question."
+            "description": "Added as possible answer to the question \"Hat die Plattform an der Fahrbahnseite einen Bordstein?\"."
         },
         {
             "key": "kerb",
@@ -378,7 +444,7 @@
                 "way",
                 "area"
             ],
-            "description": " Added by \"Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel hält?\" and \"Welche Art von Bordstein ist an dieser Stelle?\" questions."
+            "description": "Added as possible answer to the question \"Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel hält?\"."
         },
         {
             "key": "kerb",
@@ -387,7 +453,7 @@
                 "way",
                 "area"
             ],
-            "description": " Added by \"Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel hält?\" and \"Welche Art von Bordstein ist an dieser Stelle?\" questions."
+            "description": "Added as possible answer to the question \"Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel hält?\"."
         },
         {
             "key": "kerb",
@@ -396,7 +462,7 @@
                 "way",
                 "area"
             ],
-            "description": " Added by \"Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel hält?\" and \"Welche Art von Bordstein ist an dieser Stelle?\" questions."
+            "description": "Added as possible answer to the question \"Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel hält?\"."
         },
         {
             "key": "kerb:approach_aid",
@@ -407,7 +473,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Hat der Bordstein eine Anfahrtshilfe für Busse?\" question."
+            "description": "Added as possible answer to the question \"Hat der Bordstein eine Anfahrtshilfe für Busse?\"."
         },
         {
             "key": "kerb:approach_aid",
@@ -418,7 +484,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Hat der Bordstein eine Anfahrtshilfe für Busse?\" question."
+            "description": "Added as possible answer to the question \"Hat der Bordstein eine Anfahrtshilfe für Busse?\"."
         },
         {
             "key": "kerb:approach_aid",
@@ -429,7 +495,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Wie sieht die Anfahrtshilfe für Busse aus?\" question."
+            "description": "Added as possible answer to the question \"Wie sieht die Anfahrtshilfe für Busse aus?\"."
         },
         {
             "key": "kerb:approach_aid",
@@ -440,7 +506,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Wie sieht die Anfahrtshilfe für Busse aus?\" question."
+            "description": "Added as possible answer to the question \"Wie sieht die Anfahrtshilfe für Busse aus?\"."
         },
         {
             "key": "kerb:approach_aid",
@@ -451,7 +517,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Wie sieht die Anfahrtshilfe für Busse aus?\" question."
+            "description": "Added as possible answer to the question \"Wie sieht die Anfahrtshilfe für Busse aus?\"."
         },
         {
             "key": "wheelchair:portable_ramp",
@@ -462,7 +528,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es eine bewegbare Rollstuhl-Rampe?\" question."
+            "description": "Added as possible answer to the question \"Gibt es eine bewegbare Rollstuhl-Rampe?\"."
         },
         {
             "key": "wheelchair:portable_ramp",
@@ -473,7 +539,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es eine bewegbare Rollstuhl-Rampe?\" question."
+            "description": "Added as possible answer to the question \"Gibt es eine bewegbare Rollstuhl-Rampe?\"."
         },
         {
             "key": "wheelchair:portable_lift",
@@ -484,7 +550,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es einen bewegbaren Hublift für Rollstuhlfahrende?\" question."
+            "description": "Added as possible answer to the question \"Gibt es einen bewegbaren Hublift für Rollstuhlfahrende?\"."
         },
         {
             "key": "wheelchair:portable_lift",
@@ -495,7 +561,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es einen bewegbaren Hublift für Rollstuhlfahrende?\" question."
+            "description": "Added as possible answer to the question \"Gibt es einen bewegbaren Hublift für Rollstuhlfahrende?\"."
         },
         {
             "key": "door",
@@ -503,7 +569,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Hat dieser Durchgang eine Tür?\" question."
+            "description": "Added as possible answer to the question \"Hat dieser Durchgang eine Tür?\"."
         },
         {
             "key": "door",
@@ -511,7 +577,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Hat dieser Durchgang eine Tür?\" question."
+            "description": "Added as possible answer to the question \"Hat dieser Durchgang eine Tür?\"."
         },
         {
             "key": "door",
@@ -519,7 +585,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Welche Art von Tür ist verbaut?\" question."
+            "description": "Added as possible answer to the question \"Welche Art von Tür ist verbaut?\"."
         },
         {
             "key": "door",
@@ -527,7 +593,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Welche Art von Tür ist verbaut?\" question."
+            "description": "Added as possible answer to the question \"Welche Art von Tür ist verbaut?\"."
         },
         {
             "key": "door",
@@ -535,7 +601,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Welche Art von Tür ist verbaut?\" question."
+            "description": "Added as possible answer to the question \"Welche Art von Tür ist verbaut?\"."
         },
         {
             "key": "door",
@@ -543,7 +609,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Welche Art von Tür ist verbaut?\" question."
+            "description": "Added as possible answer to the question \"Welche Art von Tür ist verbaut?\"."
         },
         {
             "key": "automatic_door",
@@ -551,7 +617,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Öffnet die Tür automatisch?\" question."
+            "description": "Added as possible answer to the question \"Öffnet die Tür automatisch?\"."
         },
         {
             "key": "automatic_door",
@@ -559,7 +625,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Öffnet die Tür automatisch?\" question."
+            "description": "Added as possible answer to the question \"Öffnet die Tür automatisch?\"."
         },
         {
             "key": "automatic_door",
@@ -567,7 +633,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Wodurch öffnet sich die Automatik-Tür?\" question."
+            "description": "Added as possible answer to the question \"Wodurch öffnet sich die Automatik-Tür?\"."
         },
         {
             "key": "automatic_door",
@@ -575,7 +641,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Wodurch öffnet sich die Automatik-Tür?\" question."
+            "description": "Added as possible answer to the question \"Wodurch öffnet sich die Automatik-Tür?\"."
         },
         {
             "key": "automatic_door",
@@ -583,7 +649,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Wodurch öffnet sich die Automatik-Tür?\" question."
+            "description": "Added as possible answer to the question \"Wodurch öffnet sich die Automatik-Tür?\"."
         },
         {
             "key": "surface",
@@ -593,7 +659,7 @@
                 "area",
                 "relation"
             ],
-            "description": "Added by \"Wie ist der Boden beschaffen?\" question."
+            "description": "Added as possible answer to the question \"Wie ist der Boden beschaffen?\"."
         },
         {
             "key": "surface",
@@ -603,7 +669,7 @@
                 "area",
                 "relation"
             ],
-            "description": "Added by \"Wie ist der Boden beschaffen?\" question."
+            "description": "Added as possible answer to the question \"Wie ist der Boden beschaffen?\"."
         },
         {
             "key": "tactile_paving",
@@ -613,7 +679,7 @@
                 "area",
                 "relation"
             ],
-            "description": " Added by \"Gibt es Bodenindikatoren auf der Plattform?\" and \"Gibt es an dieser Stelle Bodenindikatoren?\" questions."
+            "description": "Added as possible answer to the question \"Gibt es Bodenindikatoren auf der Plattform?\"."
         },
         {
             "key": "tactile_paving",
@@ -623,7 +689,7 @@
                 "area",
                 "relation"
             ],
-            "description": " Added by \"Gibt es Bodenindikatoren auf der Plattform?\" and \"Gibt es an dieser Stelle Bodenindikatoren?\" questions."
+            "description": "Added as possible answer to the question \"Gibt es Bodenindikatoren auf der Plattform?\"."
         },
         {
             "key": "cycle_barrier",
@@ -631,7 +697,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Wie ist der Aufbau der Umlaufsperre?\" question."
+            "description": "Added as possible answer to the question \"Wie ist der Aufbau der Umlaufsperre?\"."
         },
         {
             "key": "cycle_barrier",
@@ -639,7 +705,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Wie ist der Aufbau der Umlaufsperre?\" question."
+            "description": "Added as possible answer to the question \"Wie ist der Aufbau der Umlaufsperre?\"."
         },
         {
             "key": "cycle_barrier",
@@ -647,7 +713,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Wie ist der Aufbau der Umlaufsperre?\" question."
+            "description": "Added as possible answer to the question \"Wie ist der Aufbau der Umlaufsperre?\"."
         },
         {
             "key": "cycle_barrier",
@@ -655,7 +721,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Wie ist der Aufbau der Umlaufsperre?\" question."
+            "description": "Added as possible answer to the question \"Wie ist der Aufbau der Umlaufsperre?\"."
         },
         {
             "key": "wheelchair:lift",
@@ -663,7 +729,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Added by \"Gibt es an der Treppe einen Treppenlift für Rollstuhlfahrende?\" question."
+            "description": "Added as possible answer to the question \"Gibt es an der Treppe einen Treppenlift für Rollstuhlfahrende?\"."
         },
         {
             "key": "wheelchair:lift",
@@ -671,7 +737,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Added by \"Gibt es an der Treppe einen Treppenlift für Rollstuhlfahrende?\" question."
+            "description": "Added as possible answer to the question \"Gibt es an der Treppe einen Treppenlift für Rollstuhlfahrende?\"."
         },
         {
             "key": "tactile_writing",
@@ -682,7 +748,7 @@
                 "relation",
                 "area"
             ],
-            "description": " Added by \"Ist auf den Bedienelementen Blindenschrift vorhanden?\" and \"Ist auf dem Handlauf Blindenschrift vorhanden?\" questions."
+            "description": "Added as possible answer to the question \"Ist auf den Bedienelementen Blindenschrift vorhanden?\"."
         },
         {
             "key": "tactile_writing",
@@ -693,7 +759,7 @@
                 "relation",
                 "area"
             ],
-            "description": " Added by \"Ist auf den Bedienelementen Blindenschrift vorhanden?\" and \"Ist auf dem Handlauf Blindenschrift vorhanden?\" questions."
+            "description": "Added as possible answer to the question \"Ist auf den Bedienelementen Blindenschrift vorhanden?\"."
         },
         {
             "key": "speech_output",
@@ -704,7 +770,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es im Fahrstuhl eine Ansage, auf welcher Etage man sich befindet?\" question."
+            "description": "Added as possible answer to the question \"Gibt es im Fahrstuhl eine Ansage, auf welcher Etage man sich befindet?\"."
         },
         {
             "key": "speech_output",
@@ -715,7 +781,29 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es im Fahrstuhl eine Ansage, auf welcher Etage man sich befindet?\" question."
+            "description": "Added as possible answer to the question \"Gibt es im Fahrstuhl eine Ansage, auf welcher Etage man sich befindet?\"."
+        },
+        {
+            "key": "tactile_writing",
+            "value": "yes",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added as possible answer to the question \"Ist auf dem Handlauf Blindenschrift vorhanden?\"."
+        },
+        {
+            "key": "tactile_writing",
+            "value": "no",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added as possible answer to the question \"Ist auf dem Handlauf Blindenschrift vorhanden?\"."
         },
         {
             "key": "handrail",
@@ -726,7 +814,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Hat die Treppe einen Handlauf?\" question."
+            "description": "Added as possible answer to the question \"Hat die Treppe einen Handlauf?\"."
         },
         {
             "key": "handrail",
@@ -737,7 +825,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Hat die Treppe einen Handlauf?\" question."
+            "description": "Added as possible answer to the question \"Hat die Treppe einen Handlauf?\"."
         },
         {
             "key": "crossing",
@@ -745,7 +833,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Welche Art von Füßgängerübergang ist das?\" question."
+            "description": "Added as possible answer to the question \"Welche Art von Füßgängerübergang ist das?\"."
         },
         {
             "key": "crossing",
@@ -753,7 +841,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Welche Art von Füßgängerübergang ist das?\" question."
+            "description": "Added as possible answer to the question \"Welche Art von Füßgängerübergang ist das?\"."
         },
         {
             "key": "crossing",
@@ -761,7 +849,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Welche Art von Füßgängerübergang ist das?\" question."
+            "description": "Added as possible answer to the question \"Welche Art von Füßgängerübergang ist das?\"."
         },
         {
             "key": "crossing",
@@ -769,7 +857,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Welche Art von Füßgängerübergang ist das?\" question."
+            "description": "Added as possible answer to the question \"Welche Art von Füßgängerübergang ist das?\"."
         },
         {
             "key": "button_operated",
@@ -778,7 +866,7 @@
                 "node",
                 "way"
             ],
-            "description": "Added by \"Hat die Fußgängerampel einen Anforderungstaster?\" question."
+            "description": "Added as possible answer to the question \"Hat die Fußgängerampel einen Anforderungstaster?\"."
         },
         {
             "key": "button_operated",
@@ -787,7 +875,7 @@
                 "node",
                 "way"
             ],
-            "description": "Added by \"Hat die Fußgängerampel einen Anforderungstaster?\" question."
+            "description": "Added as possible answer to the question \"Hat die Fußgängerampel einen Anforderungstaster?\"."
         },
         {
             "key": "traffic_signals:arrow",
@@ -796,7 +884,7 @@
                 "node",
                 "way"
             ],
-            "description": "Added by \"Hat die Fußgängerampel einen tastbaren Pfeil für Blinde?\" question."
+            "description": "Added as possible answer to the question \"Hat die Fußgängerampel einen tastbaren Pfeil für Blinde?\"."
         },
         {
             "key": "traffic_signals:arrow",
@@ -805,7 +893,7 @@
                 "node",
                 "way"
             ],
-            "description": "Added by \"Hat die Fußgängerampel einen tastbaren Pfeil für Blinde?\" question."
+            "description": "Added as possible answer to the question \"Hat die Fußgängerampel einen tastbaren Pfeil für Blinde?\"."
         },
         {
             "key": "traffic_signals:sound",
@@ -814,7 +902,7 @@
                 "node",
                 "way"
             ],
-            "description": "Added by \"Gibt es an der Fußgängerampel akustische Signale für Blinde?\" question."
+            "description": "Added as possible answer to the question \"Gibt es an der Fußgängerampel akustische Signale für Blinde?\"."
         },
         {
             "key": "traffic_signals:sound",
@@ -823,7 +911,7 @@
                 "node",
                 "way"
             ],
-            "description": "Added by \"Gibt es an der Fußgängerampel akustische Signale für Blinde?\" question."
+            "description": "Added as possible answer to the question \"Gibt es an der Fußgängerampel akustische Signale für Blinde?\"."
         },
         {
             "key": "traffic_signals:vibration",
@@ -832,7 +920,7 @@
                 "node",
                 "way"
             ],
-            "description": "Added by \"Gibt es an der Fußgängerampel einen Vibrations-Signalgeber für Blinde?\" question."
+            "description": "Added as possible answer to the question \"Gibt es an der Fußgängerampel einen Vibrations-Signalgeber für Blinde?\"."
         },
         {
             "key": "traffic_signals:vibration",
@@ -841,7 +929,47 @@
                 "node",
                 "way"
             ],
-            "description": "Added by \"Gibt es an der Fußgängerampel einen Vibrations-Signalgeber für Blinde?\" question."
+            "description": "Added as possible answer to the question \"Gibt es an der Fußgängerampel einen Vibrations-Signalgeber für Blinde?\"."
+        },
+        {
+            "key": "kerb",
+            "value": "raised",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added as possible answer to the question \"Welche Art von Bordstein ist an dieser Stelle?\"."
+        },
+        {
+            "key": "kerb",
+            "value": "lowered",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added as possible answer to the question \"Welche Art von Bordstein ist an dieser Stelle?\"."
+        },
+        {
+            "key": "kerb",
+            "value": "flush",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added as possible answer to the question \"Welche Art von Bordstein ist an dieser Stelle?\"."
+        },
+        {
+            "key": "tactile_paving",
+            "value": "yes",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added as possible answer to the question \"Gibt es an dieser Stelle Bodenindikatoren?\"."
+        },
+        {
+            "key": "tactile_paving",
+            "value": "no",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added as possible answer to the question \"Gibt es an dieser Stelle Bodenindikatoren?\"."
         },
         {
             "key": "crossing:bell",
@@ -849,7 +977,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Gibt es eine akustisches Warnsignal bei Durchfahrt der Straßenbahn?\" question."
+            "description": "Added as possible answer to the question \"Gibt es eine akustisches Warnsignal bei Durchfahrt der Straßenbahn?\"."
         },
         {
             "key": "crossing:bell",
@@ -857,7 +985,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Gibt es eine akustisches Warnsignal bei Durchfahrt der Straßenbahn?\" question."
+            "description": "Added as possible answer to the question \"Gibt es eine akustisches Warnsignal bei Durchfahrt der Straßenbahn?\"."
         }
     ]
 }
