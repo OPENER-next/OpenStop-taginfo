@@ -1,13 +1,26 @@
 import os, sys, json
 from datetime import datetime
 import urllib.request
+import hashlib
 
 TAGINFO = {}
+
+# before we change anything, we need to make sure that something changed
+# if nothing changed, we don't want to create a new commit
+
+# load the file "taginfo.json"
+with open("taginfo.json", "r", encoding="utf8") as f:
+	taginfo = json.loads(f.read())
+
+# read the md5 of the previous taginfo.json
+previous_md5 = taginfo["project"]["catalog-md5"] 
+
+
+
 
 # Set up the basic parameters
 TAGINFO["data_format"] = 1
 TAGINFO["data_url"] = "https://raw.githubusercontent.com/OPENER-next/OpenStop-taginfo/main/taginfo.json"
-TAGINFO["data_updated"] = datetime.strftime(datetime.now(), '%Y%m%dT%H%M%SZ')
 TAGINFO["project"] = {
 	"name": "OpenStop",
 	"description": "App for collecting OpenStreetMap-compliant accessibility data in public transport",
@@ -146,13 +159,28 @@ for combikey, data in questions_for_tags.items():
 
 TAGINFO["tags"] = TAGS
 
+# Delete the files we just downloaded
+os.remove(os.path.join(json_dir, "map_feature_collection.json"))
+os.remove(os.path.join(json_dir, "question_catalog.json"))
+
+# BEFORE we write the taginfo.json file, we generate the md5 of the string representation of the TAGINFO dictionary
+# and add it to the dictionary
+new_md5 = hashlib.md5(json.dumps(TAGINFO, ensure_ascii=False).encode("utf8")).hexdigest()
+
+if new_md5 == previous_md5:
+	print("No changes detected, exiting")
+	exit()
+else:
+	print("Changes detected, writing taginfo.json")
+	TAGINFO["project"]["catalog-md5"] = new_md5
+	TAGINFO["data_updated"] = datetime.strftime(datetime.now(), '%Y%m%dT%H%M%SZ')
+
+
 # write the taginfo.json file
 with open(os.path.join(json_dir, "taginfo.json"), "w", encoding="utf8") as f:
 	f.write(json.dumps(TAGINFO, indent=4, ensure_ascii=False))
 
-# Delete the files we just downloaded
-os.remove(os.path.join(json_dir, "map_feature_collection.json"))
-os.remove(os.path.join(json_dir, "question_catalog.json"))
+
 
 
 
