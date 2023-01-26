@@ -20,11 +20,10 @@ jobs:
               git config --local user.email "action@github.com"
               git config --local user.name "GitHub Action"
               git add -A
-              err=$(git status 2>&1)
-              if [ -z "err" ]
+              if [[ `git status --porcelain` ]]; then
               then
-                echo "taginfo.json is up to date, nothing to push"
-              else
                 git commit -a -m "Update taginfo.json"
                 git push
+              else
+                echo "taginfo.json is up to date, nothing to push"
               fi
