@@ -1,5 +1,5 @@
 # OpenStop-taginfo
 
-Dieses Repository enthält die Datei `taginfo.json` für die App [OpenStop](), die von [Taginfo Projects](https://taginfo.openstreetmap.org/projects) ausgewertet wird.
+This repository contains the `taginfo.json` file for the [OpenStop](https://openstop.app) app, which is evaluated by [Taginfo Projects](https://taginfo.openstreetmap.org/projects).
 
-Außerdem enthält es die Datei `generate-taginfo.py`, ein Python-Skript, welches die `taginfo.json` generiert.
+It also contains the file `generate-taginfo.py`, a Python script that generates the `taginfo.json`.
