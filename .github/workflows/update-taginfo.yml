@@ -20,9 +20,11 @@ jobs:
               git config --local user.email "action@github.com"
               git config --local user.name "GitHub Action"
               git add -A
-              git commit -m "update taginfo.json" -a
-          - name: push changes
-            uses: ad-m/github-push-action@v0.6.0
-            with:
-              github_token: ${{ secrets.GITHUB_TOKEN }}
-              branch: main
+              err=$(git status 2>&1)
+              if [ -z "err" ]
+              then
+                echo "taginfo.json is up to date, nothing to push"
+              else
+                git commit -a -m "Update taginfo.json"
+                git push
+              fi
