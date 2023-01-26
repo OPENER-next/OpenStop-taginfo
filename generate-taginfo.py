@@ -21,6 +21,36 @@ TAGINFO["tags"] = []
 
 TAGS = []
 
+questions_for_tags = {}
+
+def AddToQuestionsForTags(key, value, question, elementtypes):
+	global questions_for_tags
+	combikey = key + "=" + value
+	if combikey not in questions_for_tags:
+		questions_for_tags[combikey] = {}
+		questions_for_tags[combikey]["questions"] = []
+		questions_for_tags[combikey]["elements"] = elementtypes
+	questions_for_tags[combikey]["questions"].append(question)
+
+
+def getQuestionDescription(questions):
+	# if there is only one question, return the description
+	if len(questions) == 1:
+		return "Added by \"" + questions[0] + "\" question."
+	# if there are multiple questions, return the descriptions separated by a comma
+	else:
+		description = " Added by \""
+		# get the next-to-last element of the list questions
+		nexttolast = questions[-2]
+		for question in questions:
+			if question == nexttolast:
+				description += question + "\" and \"" + questions[-1] + "\" questions."
+				break
+			else:
+				description += "\"" + question + "\", "
+		return description
+
+
 
 def AddToTags(key, value, object_types, description):
 	global TAGS
@@ -106,7 +136,12 @@ for question in question_catalog:
 		if "osm_tags" not in answer:
 			continue
 		for key, value in answer["osm_tags"].items():
-			AddToTags(key, value, objecttypes, "Added as possible answer to the question \"" + str(question["question"]["text"]) + "\".")
+			AddToQuestionsForTags(key, value, str(question["question"]["text"]), objecttypes)
+
+for combikey, data in questions_for_tags.items():
+	key = combikey.split("=")[0]
+	value = combikey.split("=")[1]
+	AddToTags(key, value, data["elements"], getQuestionDescription(data["questions"]))
 
 
 TAGINFO["tags"] = TAGS
