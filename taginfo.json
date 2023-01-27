@@ -9,7 +9,7 @@
         "icon_url": "https://raw.githubusercontent.com/OPENER-next/OpenStop/master/web/favicon.png",
         "contact_name": "OPENER next",
         "contact_email": "openernext@etit.tu-chemnitz.de",
-        "catalog-md5": "77fc576e4c5dfc600ae3a57839d05392"
+        "catalog-md5": "f689b7cb7c4542d3dd1fcd230667f058"
     },
     "tags": [
         {
@@ -21,7 +21,7 @@
                 "relation",
                 "area"
             ],
-            "description": " Added by \"Ist die Fahrkartenverkaufsstelle rollstuhlgerecht?\", Ist die Informationsstelle rollstuhlgerecht?\" and \"Für wen sind die Toiletten zugänglich?\" questions."
+            "description": "Added by \"Ist die Fahrkartenverkaufsstelle rollstuhlgerecht?\", \"Ist die Informationsstelle rollstuhlgerecht?\" and \"Für wen sind die Toiletten zugänglich?\" questions."
         },
         {
             "key": "wheelchair",
@@ -32,7 +32,7 @@
                 "relation",
                 "area"
             ],
-            "description": " Added by \"Ist die Fahrkartenverkaufsstelle rollstuhlgerecht?\", Ist die Informationsstelle rollstuhlgerecht?\" and \"Für wen sind die Toiletten zugänglich?\" questions."
+            "description": "Added by \"Ist die Fahrkartenverkaufsstelle rollstuhlgerecht?\", \"Ist die Informationsstelle rollstuhlgerecht?\" and \"Für wen sind die Toiletten zugänglich?\" questions."
         },
         {
             "key": "parking",
@@ -131,7 +131,7 @@
                 "relation",
                 "area"
             ],
-            "description": " Added by Fallen für das Parken Gebühren an?\" and \"Ist die Nutzung der Toilette kostenpflichtig?\" questions."
+            "description": "Added by \"Fallen für das Parken Gebühren an?\" and \"Ist die Nutzung der Toilette kostenpflichtig?\" questions."
         },
         {
             "key": "fee",
@@ -142,7 +142,7 @@
                 "relation",
                 "area"
             ],
-            "description": " Added by Fallen für das Parken Gebühren an?\" and \"Ist die Nutzung der Toilette kostenpflichtig?\" questions."
+            "description": "Added by \"Fallen für das Parken Gebühren an?\" and \"Ist die Nutzung der Toilette kostenpflichtig?\" questions."
         },
         {
             "key": "wheelchair",
@@ -378,7 +378,7 @@
                 "way",
                 "area"
             ],
-            "description": " Added by Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel hält?\" and \"Welche Art von Bordstein ist an dieser Stelle?\" questions."
+            "description": "Added by \"Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel hält?\" and \"Welche Art von Bordstein ist an dieser Stelle?\" questions."
         },
         {
             "key": "kerb",
@@ -387,7 +387,7 @@
                 "way",
                 "area"
             ],
-            "description": " Added by Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel hält?\" and \"Welche Art von Bordstein ist an dieser Stelle?\" questions."
+            "description": "Added by \"Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel hält?\" and \"Welche Art von Bordstein ist an dieser Stelle?\" questions."
         },
         {
             "key": "kerb",
@@ -396,7 +396,7 @@
                 "way",
                 "area"
             ],
-            "description": " Added by Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel hält?\" and \"Welche Art von Bordstein ist an dieser Stelle?\" questions."
+            "description": "Added by \"Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel hält?\" and \"Welche Art von Bordstein ist an dieser Stelle?\" questions."
         },
         {
             "key": "kerb:approach_aid",
@@ -613,7 +613,7 @@
                 "area",
                 "relation"
             ],
-            "description": " Added by Gibt es Bodenindikatoren auf der Plattform?\" and \"Gibt es an dieser Stelle Bodenindikatoren?\" questions."
+            "description": "Added by \"Gibt es Bodenindikatoren auf der Plattform?\" and \"Gibt es an dieser Stelle Bodenindikatoren?\" questions."
         },
         {
             "key": "tactile_paving",
@@ -623,7 +623,7 @@
                 "area",
                 "relation"
             ],
-            "description": " Added by Gibt es Bodenindikatoren auf der Plattform?\" and \"Gibt es an dieser Stelle Bodenindikatoren?\" questions."
+            "description": "Added by \"Gibt es Bodenindikatoren auf der Plattform?\" and \"Gibt es an dieser Stelle Bodenindikatoren?\" questions."
         },
         {
             "key": "cycle_barrier",
@@ -682,7 +682,7 @@
                 "relation",
                 "area"
             ],
-            "description": " Added by Ist auf den Bedienelementen Blindenschrift vorhanden?\" and \"Ist auf dem Handlauf Blindenschrift vorhanden?\" questions."
+            "description": "Added by \"Ist auf den Bedienelementen Blindenschrift vorhanden?\" and \"Ist auf dem Handlauf Blindenschrift vorhanden?\" questions."
         },
         {
             "key": "tactile_writing",
@@ -693,7 +693,7 @@
                 "relation",
                 "area"
             ],
-            "description": " Added by Ist auf den Bedienelementen Blindenschrift vorhanden?\" and \"Ist auf dem Handlauf Blindenschrift vorhanden?\" questions."
+            "description": "Added by \"Ist auf den Bedienelementen Blindenschrift vorhanden?\" and \"Ist auf dem Handlauf Blindenschrift vorhanden?\" questions."
         },
         {
             "key": "speech_output",
@@ -860,5 +860,5 @@
             "description": "Added by \"Gibt es eine akustisches Warnsignal bei Durchfahrt der Straßenbahn?\" question."
         }
     ],
-    "data_updated": "20230127T125734Z"
+    "data_updated": "20230127T130001Z"
 }
