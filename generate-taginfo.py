@@ -52,12 +52,12 @@ def getQuestionDescription(questions):
 		return "Added by \"" + questions[0] + "\" question."
 	# if there are multiple questions, return the descriptions separated by a comma
 	else:
-		description = " Added by "
+		description = "Added by "
 		# get the next-to-last element of the list questions
 		nexttolast = questions[-2]
 		for question in questions:
 			if question == nexttolast:
-				description += question + "\" and \"" + questions[-1] + "\" questions."
+				description += "\"" + question + "\" and \"" + questions[-1] + "\" questions."
 				break
 			else:
 				description += "\"" + question + "\", "
