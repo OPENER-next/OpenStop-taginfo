@@ -9,7 +9,7 @@
         "icon_url": "https://raw.githubusercontent.com/OPENER-next/OpenStop/master/web/favicon.png",
         "contact_name": "OPENER next",
         "contact_email": "openernext@etit.tu-chemnitz.de",
-        "catalog-md5": "f689b7cb7c4542d3dd1fcd230667f058"
+        "catalog-md5": "4e2d14660c6b0188da4bafa643183389"
     },
     "tags": [
         {
@@ -523,7 +523,7 @@
         },
         {
             "key": "door",
-            "value": "revolving",
+            "value": "swinging",
             "object_types": [
                 "node"
             ],
@@ -539,7 +539,7 @@
         },
         {
             "key": "door",
-            "value": "swinging",
+            "value": "revolving",
             "object_types": [
                 "node"
             ],
@@ -860,5 +860,5 @@
             "description": "Added by \"Gibt es eine akustisches Warnsignal bei Durchfahrt der Straßenbahn?\" question."
         }
     ],
-    "data_updated": "20230127T130001Z"
+    "data_updated": "20230203T005702Z"
 }
