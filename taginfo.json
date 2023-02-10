@@ -8,8 +8,7 @@
         "doc_url": "https://github.com/OPENER-next/OpenStop",
         "icon_url": "https://raw.githubusercontent.com/OPENER-next/OpenStop/master/web/favicon.png",
         "contact_name": "OPENER next",
-        "contact_email": "openernext@etit.tu-chemnitz.de",
-        "catalog-md5": "4e2d14660c6b0188da4bafa643183389"
+        "contact_email": "openernext@etit.tu-chemnitz.de"
     },
     "tags": [
         {
@@ -859,6 +858,5 @@
             ],
             "description": "Added by \"Gibt es eine akustisches Warnsignal bei Durchfahrt der Straßenbahn?\" question."
         }
-    ],
-    "data_updated": "20230203T005702Z"
+    ]
 }
