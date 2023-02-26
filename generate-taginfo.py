@@ -76,9 +76,6 @@ def main():
 	with open("taginfo.json", "r", encoding="utf8") as f:
 		taginfo = json.loads(f.read())
 
-	# read the md5 of the previous taginfo.json
-	previous_md5 = taginfo["project"]["catalog-md5"] 
-
 	# Set up the basic parameters
 	TAGINFO["data_format"] = 1
 	TAGINFO["data_url"] = "https://raw.githubusercontent.com/OPENER-next/OpenStop-taginfo/main/taginfo.json"
