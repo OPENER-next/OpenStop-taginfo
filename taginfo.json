@@ -406,7 +406,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Hat der Bordstein eine Anfahrtshilfe für Busse?\" question."
+            "description": "Added by \"Hat die Plattform einen speziellen Bordstein mit Anfahrtshilfe für Busse?\" question."
         },
         {
             "key": "kerb:approach_aid",
@@ -417,40 +417,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Hat der Bordstein eine Anfahrtshilfe für Busse?\" question."
-        },
-        {
-            "key": "kerb:approach_aid",
-            "value": "edge_recess",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"Wie sieht die Anfahrtshilfe für Busse aus?\" question."
-        },
-        {
-            "key": "kerb:approach_aid",
-            "value": "lane_guidance",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"Wie sieht die Anfahrtshilfe für Busse aus?\" question."
-        },
-        {
-            "key": "kerb:approach_aid",
-            "value": "guidance_with_recess",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"Wie sieht die Anfahrtshilfe für Busse aus?\" question."
+            "description": "Added by \"Hat die Plattform einen speziellen Bordstein mit Anfahrtshilfe für Busse?\" question."
         },
         {
             "key": "wheelchair:portable_ramp",
