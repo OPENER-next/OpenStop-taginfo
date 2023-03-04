@@ -163,7 +163,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es an der Plattform Sitzplätze?\" question."
+            "description": "Added by \"Gibt es an der Haltestelle Sitzplätze?\" question."
         },
         {
             "key": "bench",
@@ -174,7 +174,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es an der Plattform Sitzplätze?\" question."
+            "description": "Added by \"Gibt es an der Haltestelle Sitzplätze?\" question."
         },
         {
             "key": "shelter",
@@ -185,7 +185,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es an der Plattform einen überdachten Wartebereich?\" question."
+            "description": "Added by \"Gibt es an der Haltestelle einen überdachten Wartebereich?\" question."
         },
         {
             "key": "shelter",
@@ -196,7 +196,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es an der Plattform einen überdachten Wartebereich?\" question."
+            "description": "Added by \"Gibt es an der Haltestelle einen überdachten Wartebereich?\" question."
         },
         {
             "key": "departures_board",
@@ -262,7 +262,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es einen dynamischen Fahrtziel-Anzeiger an der Plattform?\" question."
+            "description": "Added by \"Gibt es einen dynamischen Fahrtziel-Anzeiger an der Haltestelle?\" question."
         },
         {
             "key": "passenger_information_display",
@@ -273,7 +273,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es einen dynamischen Fahrtziel-Anzeiger an der Plattform?\" question."
+            "description": "Added by \"Gibt es einen dynamischen Fahrtziel-Anzeiger an der Haltestelle?\" question."
         },
         {
             "key": "passenger_information_display:speech_output",
@@ -284,7 +284,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Hat der dynamische Fahrtziel-Anzeiger an der Plattform eine akustische Ausgabe?\" question."
+            "description": "Added by \"Hat der dynamische Fahrtziel-Anzeiger an der Haltestelle eine akustische Ausgabe?\" question."
         },
         {
             "key": "passenger_information_display:speech_output",
@@ -295,7 +295,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Hat der dynamische Fahrtziel-Anzeiger an der Plattform eine akustische Ausgabe?\" question."
+            "description": "Added by \"Hat der dynamische Fahrtziel-Anzeiger an der Haltestelle eine akustische Ausgabe?\" question."
         },
         {
             "key": "announcement",
@@ -356,46 +356,56 @@
             "key": "kerb",
             "value": "yes",
             "object_types": [
+                "node",
                 "way",
+                "relation",
                 "area"
             ],
-            "description": "Added by \"Hat die Plattform an der Fahrbahnseite einen Bordstein?\" question."
+            "description": "Added by \"Hat die Haltestelle an der Fahrbahnseite einen Bordstein?\" question."
         },
         {
             "key": "kerb",
             "value": "no",
             "object_types": [
+                "node",
                 "way",
+                "relation",
                 "area"
             ],
-            "description": "Added by \"Hat die Plattform an der Fahrbahnseite einen Bordstein?\" question."
+            "description": "Added by \"Hat die Haltestelle an der Fahrbahnseite einen Bordstein?\" question."
         },
         {
             "key": "kerb",
             "value": "raised",
             "object_types": [
+                "node",
                 "way",
+                "relation",
                 "area"
             ],
-            "description": "Added by \"Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel hält?\" and \"Welche Art von Bordstein ist an dieser Stelle?\" questions."
+            "description": "Added by \"Welche Art von Bordstein hat die Haltestelle an der Seite, an der das Verkehrsmittel hält?\" and \"Welche Art von Bordstein ist an dieser Stelle?\" questions."
         },
         {
             "key": "kerb",
             "value": "lowered",
             "object_types": [
+                "node",
                 "way",
+                "relation",
                 "area"
             ],
-            "description": "Added by \"Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel hält?\" and \"Welche Art von Bordstein ist an dieser Stelle?\" questions."
+            "description": "Added by \"Welche Art von Bordstein hat die Haltestelle an der Seite, an der das Verkehrsmittel hält?\" and \"Welche Art von Bordstein ist an dieser Stelle?\" questions."
         },
         {
             "key": "kerb",
             "value": "flush",
             "object_types": [
+                "node",
                 "way",
+                "relation",
                 "area"
             ],
-            "description": "Added by \"Welche Art von Bordstein hat die Plattform an der Seite, an der das Verkehrsmittel hält?\" and \"Welche Art von Bordstein ist an dieser Stelle?\" questions."
+            "description": "Added by \"Welche Art von Bordstein hat die Haltestelle an der Seite, an der das Verkehrsmittel hält?\" and \"Welche Art von Bordstein ist an dieser Stelle?\" questions."
         },
         {
             "key": "kerb:approach_aid",
@@ -406,7 +416,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Hat die Plattform einen speziellen Bordstein mit Anfahrtshilfe für Busse?\" question."
+            "description": "Added by \"Hat die Haltestelle einen speziellen Bordstein mit Anfahrtshilfe für Busse?\" question."
         },
         {
             "key": "kerb:approach_aid",
@@ -417,7 +427,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Hat die Plattform einen speziellen Bordstein mit Anfahrtshilfe für Busse?\" question."
+            "description": "Added by \"Hat die Haltestelle einen speziellen Bordstein mit Anfahrtshilfe für Busse?\" question."
         },
         {
             "key": "wheelchair:portable_ramp",
@@ -575,21 +585,23 @@
             "key": "tactile_paving",
             "value": "yes",
             "object_types": [
+                "node",
                 "way",
-                "area",
-                "relation"
+                "relation",
+                "area"
             ],
-            "description": "Added by \"Gibt es Bodenindikatoren auf der Plattform?\" and \"Gibt es an dieser Stelle Bodenindikatoren?\" questions."
+            "description": "Added by \"Gibt es Bodenindikatoren an der Haltestelle?\" and \"Gibt es an dieser Stelle Bodenindikatoren?\" questions."
         },
         {
             "key": "tactile_paving",
             "value": "no",
             "object_types": [
+                "node",
                 "way",
-                "area",
-                "relation"
+                "relation",
+                "area"
             ],
-            "description": "Added by \"Gibt es Bodenindikatoren auf der Plattform?\" and \"Gibt es an dieser Stelle Bodenindikatoren?\" questions."
+            "description": "Added by \"Gibt es Bodenindikatoren an der Haltestelle?\" and \"Gibt es an dieser Stelle Bodenindikatoren?\" questions."
         },
         {
             "key": "cycle_barrier",
