@@ -320,39 +320,6 @@
             "description": "Added by \"Gibt es Ansagen über Lautsprecher an der Plattform?\" question."
         },
         {
-            "key": "announcement",
-            "value": "automatic",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"Von welcher Art sind die Ansagen an der Plattform?\" question."
-        },
-        {
-            "key": "announcement",
-            "value": "manual",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"Von welcher Art sind die Ansagen an der Plattform?\" question."
-        },
-        {
-            "key": "announcement",
-            "value": "mixed",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"Von welcher Art sind die Ansagen an der Plattform?\" question."
-        },
-        {
             "key": "kerb",
             "value": "yes",
             "object_types": [
