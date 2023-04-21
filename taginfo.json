@@ -207,7 +207,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es eine Fahrplan-Anzeige für die gesamte Station?\" question."
+            "description": "Added by \"Gibt es eine stationsweite Fahrplan-Anzeige?\" question."
         },
         {
             "key": "departures_board",
@@ -218,7 +218,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es eine Fahrplan-Anzeige für die gesamte Station?\" question."
+            "description": "Added by \"Gibt es eine stationsweite Fahrplan-Anzeige?\" question."
         },
         {
             "key": "departures_board",
@@ -229,7 +229,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es eine Fahrplan-Anzeige für die gesamte Station?\" question."
+            "description": "Added by \"Gibt es eine stationsweite Fahrplan-Anzeige?\" question."
         },
         {
             "key": "departures_board:speech_output",
@@ -240,7 +240,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Hat die Fahrplan-Anzeige für die gesamte Station eine akustische Ausgabe?\" question."
+            "description": "Added by \"Hat die stationsweite Fahrplan-Anzeige eine manuell anforderbare akustische Ausgabe?\" question."
         },
         {
             "key": "departures_board:speech_output",
@@ -251,7 +251,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Hat die Fahrplan-Anzeige für die gesamte Station eine akustische Ausgabe?\" question."
+            "description": "Added by \"Hat die stationsweite Fahrplan-Anzeige eine manuell anforderbare akustische Ausgabe?\" question."
         },
         {
             "key": "passenger_information_display",
