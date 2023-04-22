@@ -794,7 +794,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Gibt es eine akustisches Warnsignal bei Durchfahrt der Straßenbahn?\" question."
+            "description": "Added by \"Gibt es ein akustisches Warnsignal bei Durchfahrt der Straßenbahn?\" question."
         },
         {
             "key": "crossing:bell",
@@ -802,7 +802,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Gibt es eine akustisches Warnsignal bei Durchfahrt der Straßenbahn?\" question."
+            "description": "Added by \"Gibt es ein akustisches Warnsignal bei Durchfahrt der Straßenbahn?\" question."
         }
     ]
 }
