@@ -127,7 +127,13 @@ def main():
 				continue
 			for key, value in answer["osm_tags"].items():
 				AddToQuestionsForTags(key, value, str(question["question"]["text"]), objecttypes)
+		# also recognize ["answer"]["constructor"] as a place where an osm tag can be found
+		if "constructor" in question["answer"]:
+			for key, value in question["answer"]["constructor"].items():
+				AddToQuestionsForTags(key, None, str(question["question"]["text"]), objecttypes)
 
+
+	
 	for combikey, data in questions_for_tags.items():
 		key = combikey.split("=")[0]
 		value = combikey.split("=")[1]
