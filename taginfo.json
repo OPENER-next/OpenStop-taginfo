@@ -12,6 +12,16 @@
     },
     "tags": [
         {
+            "key": "operator",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Welches Verkehrsunternehmen betreibt diese Einrichtung?\" question."
+        },
+        {
             "key": "wheelchair",
             "value": "yes",
             "object_types": [
@@ -98,6 +108,16 @@
                 "area"
             ],
             "description": "Added by \"Gibt es gesonderte Parkplätze für behinderte Personen?\" question."
+        },
+        {
+            "key": "capacity:disabled",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Wie viele Parkplätze für behinderte Personen gibt es?\" question."
         },
         {
             "key": "park_ride",
@@ -375,6 +395,22 @@
             "description": "Added by \"Welche Art von Bordstein hat die Haltestelle an der Seite, an der das Verkehrsmittel hält?\" and \"Welche Art von Bordstein ist an dieser Stelle?\" questions."
         },
         {
+            "key": "height",
+            "object_types": [
+                "way",
+                "area",
+                "relation"
+            ],
+            "description": "Added by \"Wie groß ist der Höhenunterschied zwischen Plattform und Straße bzw. Schienenoberkante?\" question."
+        },
+        {
+            "key": "width",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added by \"Was ist die überwiegende Breite der Plattform?\", \"Wie breit ist der Durchgang?\" and \"Wie breit ist die Grundfläche des Fahrstuhls?\" questions."
+        },
+        {
             "key": "kerb:approach_aid",
             "value": "yes",
             "object_types": [
@@ -419,6 +455,26 @@
             "description": "Added by \"Gibt es eine bewegbare Rollstuhl-Rampe?\" question."
         },
         {
+            "key": "wheelchair:portable_ramp:length",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Wie lang ist die bewegbare Rollstuhl-Rampe?\" question."
+        },
+        {
+            "key": "wheelchair:portable_ramp:maxweight",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Was ist die maximale Tragfähigkeit der bewegbaren Rampe?\" question."
+        },
+        {
             "key": "wheelchair:portable_lift",
             "value": "yes",
             "object_types": [
@@ -439,6 +495,26 @@
                 "area"
             ],
             "description": "Added by \"Gibt es einen bewegbaren Hublift für Rollstuhlfahrende?\" question."
+        },
+        {
+            "key": "wheelchair:portable_lift:length",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Wie lang ist die Stellfläche des bewegbaren Hublifts?\" question."
+        },
+        {
+            "key": "wheelchair:portable_lift:maxweight",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Was ist die maximale Tragfähigkeit der bewegbaren Hublifts?\" question."
         },
         {
             "key": "door",
@@ -603,6 +679,27 @@
             "description": "Added by \"Wie ist der Aufbau der Umlaufsperre?\" question."
         },
         {
+            "key": "maxwidth:physical",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Wie groß ist die Durchgangsbreite der Umlaufsperre?\" question."
+        },
+        {
+            "key": "opening",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Wie breit ist der (schmalste) Zugang der Umlaufsperre?\" question."
+        },
+        {
+            "key": "spacing",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Was ist der (kleinste) Abstand zwischen den Elementen der Umlaufsperre?\" question."
+        },
+        {
             "key": "wheelchair:lift",
             "value": "yes",
             "object_types": [
@@ -617,6 +714,33 @@
                 "way"
             ],
             "description": "Added by \"Gibt es an der Treppe einen Treppenlift für Rollstuhlfahrende?\" question."
+        },
+        {
+            "key": "wheelchair:lift:length",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Wie tief ist die Stellfläche des Treppenlifts?\" question."
+        },
+        {
+            "key": "length",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Wie tief ist die Grundfläche des Fahrstuhls?\" question."
+        },
+        {
+            "key": "wheelchair:lift:width",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Wie breit ist die Stellfläche des Treppenlifts?\" question."
         },
         {
             "key": "tactile_writing",
@@ -663,6 +787,20 @@
             "description": "Added by \"Gibt es im Fahrstuhl eine Ansage, auf welcher Etage man sich befindet?\" question."
         },
         {
+            "key": "step:height",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added by \"Wie hoch ist eine einzelne Stufe?\" question."
+        },
+        {
+            "key": "step_count",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added by \"Wie viele Stufen hat die Treppe?\" question."
+        },
+        {
             "key": "handrail",
             "value": "yes",
             "object_types": [
@@ -683,6 +821,13 @@
                 "area"
             ],
             "description": "Added by \"Hat die Treppe einen Handlauf?\" question."
+        },
+        {
+            "key": "duration",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added by \"Wie lange dauert die Fahrt mit der Rolltreppe bzw. dem Laufband?\" question."
         },
         {
             "key": "crossing",
