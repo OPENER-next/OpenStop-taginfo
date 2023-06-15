@@ -24,7 +24,10 @@ def get_last_commit_date(repo, path):
 
 def AddToQuestionsForTags(key, value, question, elementtypes):
 	global questions_for_tags
-	combikey = key + "=" + value
+	if value == None:
+		combikey = key
+	else:
+		combikey = key + "=" + value
 	if combikey not in questions_for_tags:
 		questions_for_tags[combikey] = {}
 		questions_for_tags[combikey]["questions"] = []
