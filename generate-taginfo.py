@@ -139,7 +139,10 @@ def main():
 	
 	for combikey, data in questions_for_tags.items():
 		key = combikey.split("=")[0]
-		value = combikey.split("=")[1]
+		try:
+			value = combikey.split("=")[1]
+		except IndexError:
+			value = None
 		AddToTags(key, value, data["elements"], getQuestionDescription(data["questions"]))
 
 
