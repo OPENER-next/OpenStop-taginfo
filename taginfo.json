@@ -570,7 +570,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Öffnet die Tür automatisch?\" question."
+            "description": "Added by \"Kann sich die Tür automatisch öffnen?\" and \"Bewegt sich die Drehtür automatisch?\" questions."
         },
         {
             "key": "automatic_door",
@@ -578,7 +578,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Öffnet die Tür automatisch?\" question."
+            "description": "Added by \"Kann sich die Tür automatisch öffnen?\" and \"Bewegt sich die Drehtür automatisch?\" questions."
         },
         {
             "key": "automatic_door",
@@ -586,7 +586,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Wodurch öffnet sich die Automatik-Tür?\" question."
+            "description": "Added by \"Wodurch wird die automatische Tür-Öffnung ausgelöst?\" and \"Wie funktioniert die Automatik der Drehtür?\" questions."
         },
         {
             "key": "automatic_door",
@@ -594,7 +594,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Wodurch öffnet sich die Automatik-Tür?\" question."
+            "description": "Added by \"Wodurch wird die automatische Tür-Öffnung ausgelöst?\" question."
         },
         {
             "key": "automatic_door",
@@ -602,7 +602,15 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Wodurch öffnet sich die Automatik-Tür?\" question."
+            "description": "Added by \"Wie funktioniert die Automatik der Drehtür?\" question."
+        },
+        {
+            "key": "automatic_door",
+            "value": "slowdown_button",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Wie funktioniert die Automatik der Drehtür?\" question."
         },
         {
             "key": "surface",
