@@ -22,6 +22,16 @@
             "description": "Added by \"Welches Verkehrsunternehmen betreibt diese Einrichtung?\" question."
         },
         {
+            "key": "ref:IFOPT",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Was ist die Deutsche Haltestellen-ID für diesen Steig?\" and \"Was ist die Deutsche Haltestellen-ID für die gesamte Haltestelle?\" questions."
+        },
+        {
             "key": "wheelchair",
             "value": "yes",
             "object_types": [
@@ -411,6 +421,13 @@
             "description": "Added by \"Was ist die überwiegende Breite der Plattform?\", \"Wie breit ist der Durchgang?\" and \"Wie breit ist die Grundfläche des Fahrstuhls?\" questions."
         },
         {
+            "key": "maxwidth:physical",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added by \"Wie breit ist die engste Stelle der Plattform?\" and \"Wie groß ist die Durchgangsbreite der Umlaufsperre?\" questions."
+        },
+        {
             "key": "kerb:approach_aid",
             "value": "yes",
             "object_types": [
@@ -633,6 +650,28 @@
             "description": "Added by \"Wie ist der Boden beschaffen?\" question."
         },
         {
+            "key": "lit",
+            "value": "yes",
+            "object_types": [
+                "node",
+                "way",
+                "area",
+                "relation"
+            ],
+            "description": "Added by \"Ist diese Haltestelle nachts beleuchtet?\" question."
+        },
+        {
+            "key": "lit",
+            "value": "no",
+            "object_types": [
+                "node",
+                "way",
+                "area",
+                "relation"
+            ],
+            "description": "Added by \"Ist diese Haltestelle nachts beleuchtet?\" question."
+        },
+        {
             "key": "tactile_paving",
             "value": "yes",
             "object_types": [
@@ -685,13 +724,6 @@
                 "node"
             ],
             "description": "Added by \"Wie ist der Aufbau der Umlaufsperre?\" question."
-        },
-        {
-            "key": "maxwidth:physical",
-            "object_types": [
-                "node"
-            ],
-            "description": "Added by \"Wie groß ist die Durchgangsbreite der Umlaufsperre?\" question."
         },
         {
             "key": "opening",
@@ -956,6 +988,132 @@
                 "node"
             ],
             "description": "Added by \"Gibt es ein akustisches Warnsignal bei Durchfahrt der Straßenbahn?\" question."
+        },
+        {
+            "key": "bus",
+            "value": "yes",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Welche Verkehrsmittel halten an dieser Haltestelle?\" question."
+        },
+        {
+            "key": "tram",
+            "value": "yes",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Welche Verkehrsmittel halten an dieser Haltestelle?\" question."
+        },
+        {
+            "key": "train",
+            "value": "yes",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Welche Verkehrsmittel halten an dieser Haltestelle?\" question."
+        },
+        {
+            "key": "light_rail",
+            "value": "yes",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Welche Verkehrsmittel halten an dieser Haltestelle?\" question."
+        },
+        {
+            "key": "subway",
+            "value": "yes",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Welche Verkehrsmittel halten an dieser Haltestelle?\" question."
+        },
+        {
+            "key": "monorail",
+            "value": "yes",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Welche Verkehrsmittel halten an dieser Haltestelle?\" question."
+        },
+        {
+            "key": "bus",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Welche Verkehrsmittel halten an dieser Haltestelle?\" question."
+        },
+        {
+            "key": "tram",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Welche Verkehrsmittel halten an dieser Haltestelle?\" question."
+        },
+        {
+            "key": "train",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Welche Verkehrsmittel halten an dieser Haltestelle?\" question."
+        },
+        {
+            "key": "light_rail",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Welche Verkehrsmittel halten an dieser Haltestelle?\" question."
+        },
+        {
+            "key": "subway",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Welche Verkehrsmittel halten an dieser Haltestelle?\" question."
+        },
+        {
+            "key": "monorail",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"Welche Verkehrsmittel halten an dieser Haltestelle?\" question."
         }
     ]
 }
