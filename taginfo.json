@@ -680,7 +680,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es Bodenindikatoren an der Haltestelle?\" and \"Gibt es an dieser Stelle Bodenindikatoren?\" questions."
+            "description": "Added by \"Gibt es Bodenindikatoren an der Haltestelle?\", \"Gibt es an dieser Treppe Bodenindikatoren?\" and \"Gibt es an dieser Stelle Bodenindikatoren?\" questions."
         },
         {
             "key": "tactile_paving",
@@ -691,7 +691,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es Bodenindikatoren an der Haltestelle?\" and \"Gibt es an dieser Stelle Bodenindikatoren?\" questions."
+            "description": "Added by \"Gibt es Bodenindikatoren an der Haltestelle?\", \"Gibt es an dieser Treppe Bodenindikatoren?\" and \"Gibt es an dieser Stelle Bodenindikatoren?\" questions."
         },
         {
             "key": "cycle_barrier",
@@ -839,6 +839,22 @@
                 "way"
             ],
             "description": "Added by \"Wie viele Stufen hat die Treppe?\" question."
+        },
+        {
+            "key": "tactile_paving",
+            "value": "partial",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added by \"Gibt es an dieser Treppe Bodenindikatoren?\" question."
+        },
+        {
+            "key": "tactile_paving",
+            "value": "incorrect",
+            "object_types": [
+                "way"
+            ],
+            "description": "Added by \"Gibt es an dieser Treppe Bodenindikatoren?\" question."
         },
         {
             "key": "handrail",
