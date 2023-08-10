@@ -680,7 +680,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es Bodenindikatoren an der Haltestelle?\", \"Gibt es an dieser Treppe Bodenindikatoren?\" and \"Gibt es an dieser Stelle Bodenindikatoren?\" questions."
+            "description": "Added by \"Gibt es Bodenindikatoren an der Haltestelle?\", \"Gibt es an dieser Treppe Bodenindikatoren?\", \"Gibt es an dieser Stelle Bodenindikatoren?\" and \"Gibt es Bodenindikatoren an beiden Seiten dieses Übergangs?\" questions."
         },
         {
             "key": "tactile_paving",
@@ -691,7 +691,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es Bodenindikatoren an der Haltestelle?\", \"Gibt es an dieser Treppe Bodenindikatoren?\" and \"Gibt es an dieser Stelle Bodenindikatoren?\" questions."
+            "description": "Added by \"Gibt es Bodenindikatoren an der Haltestelle?\", \"Gibt es an dieser Treppe Bodenindikatoren?\", \"Gibt es an dieser Stelle Bodenindikatoren?\" and \"Gibt es Bodenindikatoren an beiden Seiten dieses Übergangs?\" questions."
         },
         {
             "key": "cycle_barrier",
