@@ -680,7 +680,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es Bodenindikatoren an der Haltestelle?\", \"Gibt es an dieser Treppe Bodenindikatoren?\", \"Gibt es an dieser Stelle Bodenindikatoren?\" and \"Gibt es Bodenindikatoren an beiden Seiten dieses Übergangs?\" questions."
+            "description": "Added by \"Gibt es Bodenindikatoren an der Haltestelle?\", \"Gibt es an dieser Treppe Bodenindikatoren?\", \"Gibt es Bodenindikatoren an dieser Stelle?\" and \"Gibt es Bodenindikatoren an beiden Seiten dieses Übergangs?\" questions."
         },
         {
             "key": "tactile_paving",
@@ -691,7 +691,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Gibt es Bodenindikatoren an der Haltestelle?\", \"Gibt es an dieser Treppe Bodenindikatoren?\", \"Gibt es an dieser Stelle Bodenindikatoren?\" and \"Gibt es Bodenindikatoren an beiden Seiten dieses Übergangs?\" questions."
+            "description": "Added by \"Gibt es Bodenindikatoren an der Haltestelle?\", \"Gibt es an dieser Treppe Bodenindikatoren?\", \"Gibt es Bodenindikatoren an dieser Stelle?\" and \"Gibt es Bodenindikatoren an beiden Seiten dieses Übergangs?\" questions."
         },
         {
             "key": "cycle_barrier",
@@ -990,12 +990,76 @@
             "description": "Added by \"Gibt es an der Fußgängerampel einen Vibrations-Signalgeber für Blinde?\" question."
         },
         {
+            "key": "crossing:barrier",
+            "value": "full",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Wie ist dieser Bahnübergang für Fußgänger gesichert?\" and \"Wie ist dieser Bahnübergang für Fußgänger gesichert?\" questions."
+        },
+        {
+            "key": "crossing:chicane",
+            "value": "no",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Wie ist dieser Bahnübergang für Fußgänger gesichert?\" and \"Gibt es ein Umlaufgitter an diesem Bahnübergang?\" questions."
+        },
+        {
+            "key": "crossing:chicane",
+            "value": "yes",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Wie ist dieser Bahnübergang für Fußgänger gesichert?\" and \"Gibt es ein Umlaufgitter an diesem Bahnübergang?\" questions."
+        },
+        {
+            "key": "crossing:barrier",
+            "value": "no",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Wie ist dieser Bahnübergang für Fußgänger gesichert?\" and \"Wie ist dieser Bahnübergang für Fußgänger gesichert?\" questions."
+        },
+        {
+            "key": "crossing:barrier",
+            "value": "gate",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Wie ist dieser Bahnübergang für Fußgänger gesichert?\" and \"Wie ist dieser Bahnübergang für Fußgänger gesichert?\" questions."
+        },
+        {
+            "key": "crossing:barrier",
+            "value": "chain",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Wie ist dieser Bahnübergang für Fußgänger gesichert?\" and \"Wie ist dieser Bahnübergang für Fußgänger gesichert?\" questions."
+        },
+        {
+            "key": "crossing:light",
+            "value": "yes",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Gibt es ein Warnlicht an diesem Bahnübergang?\" question."
+        },
+        {
+            "key": "crossing:light",
+            "value": "no",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Gibt es ein Warnlicht an diesem Bahnübergang?\" question."
+        },
+        {
             "key": "crossing:bell",
             "value": "yes",
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Gibt es ein akustisches Warnsignal bei Durchfahrt der Straßenbahn?\" question."
+            "description": "Added by \"Gibt es ein akustisches Signal, das vor der Durchfahrt einer Bahn warnt?\" question."
         },
         {
             "key": "crossing:bell",
@@ -1003,7 +1067,23 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Gibt es ein akustisches Warnsignal bei Durchfahrt der Straßenbahn?\" question."
+            "description": "Added by \"Gibt es ein akustisches Signal, das vor der Durchfahrt einer Bahn warnt?\" question."
+        },
+        {
+            "key": "crossing:whistle",
+            "value": "yes",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Gibt die Bahn bei Durchfahrt ein akustisches Warnsignal?\" question."
+        },
+        {
+            "key": "crossing:whistle",
+            "value": "no",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Gibt die Bahn bei Durchfahrt ein akustisches Warnsignal?\" question."
         },
         {
             "key": "bus",
