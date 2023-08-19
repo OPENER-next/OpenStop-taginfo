@@ -630,6 +630,24 @@
             "description": "Added by \"Wie funktioniert die Automatik der Drehtür?\" question."
         },
         {
+            "key": "segregated",
+            "value": "yes",
+            "object_types": [
+                "way",
+                "area"
+            ],
+            "description": "Added by \"Wie verlaufen der Fuß- und Radweg zueinander?\" question."
+        },
+        {
+            "key": "segregated",
+            "value": "no",
+            "object_types": [
+                "way",
+                "area"
+            ],
+            "description": "Added by \"Wie verlaufen der Fuß- und Radweg zueinander?\" question."
+        },
+        {
             "key": "surface",
             "value": "paved",
             "object_types": [
@@ -648,6 +666,42 @@
                 "relation"
             ],
             "description": "Added by \"Wie ist der Boden beschaffen?\" question."
+        },
+        {
+            "key": "footway:surface",
+            "value": "paved",
+            "object_types": [
+                "way",
+                "area"
+            ],
+            "description": "Added by \"Wie ist der Boden des Fußweges beschaffen?\" question."
+        },
+        {
+            "key": "footway:surface",
+            "value": "unpaved",
+            "object_types": [
+                "way",
+                "area"
+            ],
+            "description": "Added by \"Wie ist der Boden des Fußweges beschaffen?\" question."
+        },
+        {
+            "key": "cycleway:surface",
+            "value": "paved",
+            "object_types": [
+                "way",
+                "area"
+            ],
+            "description": "Added by \"Wie ist der Boden des Radweges beschaffen?\" question."
+        },
+        {
+            "key": "cycleway:surface",
+            "value": "unpaved",
+            "object_types": [
+                "way",
+                "area"
+            ],
+            "description": "Added by \"Wie ist der Boden des Radweges beschaffen?\" question."
         },
         {
             "key": "lit",
