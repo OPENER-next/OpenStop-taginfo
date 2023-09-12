@@ -10,6 +10,35 @@ TAGS = []
 
 questions_for_tags = {}
 
+NORMAL_QC = "https://raw.githubusercontent.com/OPENER-next/OpenStop/master/assets/question_catalog/definition.json"
+ADVANCED_QC = "https://raw.githubusercontent.com/OPENER-next/OpenStop/master/assets/advanced_question_catalog/definition.json"
+NORMAL_ARB = "https://raw.githubusercontent.com/OPENER-next/OpenStop/master/assets/question_catalog/locales/en.arb"
+ADVANCED_ARB = "https://raw.githubusercontent.com/OPENER-next/OpenStop/master/assets/advanced_question_catalog/locales/en.arb"
+
+
+# A dictionary that will hold all our strings from the arb-files
+TRANSLATIONS = {}
+
+# Download the arb-files from GitHub and load the strings into our translation dictionary
+for url in [NORMAL_ARB, ADVANCED_ARB]:
+	response = requests.get(url)
+	if response.status_code == 200:
+		data = response.json()
+		for key, value in data.items():
+			if not "@" in key:
+				TRANSLATIONS[key] = value
+
+
+def get_string(arbKey):
+	# This function gets the (english) string from a given key like "@railroadAcousticWarningText"
+	global TRANSLATIONS
+	# remove "@" from the key
+	arbKey = arbKey.replace("@", "")
+	if arbKey in TRANSLATIONS:
+		return TRANSLATIONS[arbKey]
+	else:
+		return arbKey
+
 def get_last_commit_date(repo, path):
     url = f"https://api.github.com/repos/{repo}/commits?path={path}"
     response = requests.get(url)
@@ -24,7 +53,10 @@ def get_last_commit_date(repo, path):
 
 def AddToQuestionsForTags(key, value, question, elementtypes):
 	global questions_for_tags
-	combikey = key + "=" + value
+	if value == None:
+		combikey = key
+	else:
+		combikey = key + "=" + value
 	if combikey not in questions_for_tags:
 		questions_for_tags[combikey] = {}
 		questions_for_tags[combikey]["questions"] = []
@@ -33,6 +65,9 @@ def AddToQuestionsForTags(key, value, question, elementtypes):
 
 
 def getQuestionDescription(questions):
+	# "Translate" the questions
+	for i in range(len(questions)):
+		questions[i] = get_string(questions[i])
 	# if there is only one question, return the description
 	if len(questions) == 1:
 		return "Added by \"" + questions[0] + "\" question."
@@ -72,9 +107,6 @@ def OpenStopTypeToTaginfoType(s):
 def main():
 	global TAGS
 	global questions_for_tags
-	# load the file "taginfo.json"
-	with open("taginfo.json", "r", encoding="utf8") as f:
-		taginfo = json.loads(f.read())
 
 	# Set up the basic parameters
 	TAGINFO["data_format"] = 1
@@ -96,7 +128,9 @@ def main():
 	# load the files "map_feature_collection.json" and "question_catalog.json"
 	# Download the files from GitHub
 	urllib.request.urlretrieve("https://raw.githubusercontent.com/OPENER-next/OpenStop/master/assets/datasets/map_feature_collection.json", os.path.join(json_dir, "map_feature_collection.json"))
-	urllib.request.urlretrieve("https://raw.githubusercontent.com/OPENER-next/OpenStop/master/assets/datasets/question_catalog.json", os.path.join(json_dir, "question_catalog.json"))
+	# retrieve the normal and the advanced question catalog
+	urllib.request.urlretrieve(NORMAL_QC, os.path.join(json_dir, "question_catalog.json"))
+	urllib.request.urlretrieve(ADVANCED_QC, os.path.join(json_dir, "advanced_question_catalog.json"))
 
 	# load the file "map_feature_collection.json"
 	with open(os.path.join(json_dir, "map_feature_collection.json")) as f:
@@ -105,6 +139,13 @@ def main():
 	# load the file "question_catalog.json"
 	with open(os.path.join(json_dir, "question_catalog.json"), "r", encoding="utf8") as f:
 		question_catalog = json.load(f)
+
+	# load the file "advanced_question_catalog.json"
+	with open(os.path.join(json_dir, "advanced_question_catalog.json"), "r", encoding="utf8") as f:
+		advanced_question_catalog = json.load(f)
+	
+	# Combine the question catalogs (for taginfo, it's not relevant if a question is in the normal or the advanced question catalog)
+	question_catalog.extend(advanced_question_catalog)
 
 	# iterate over the question_catalog
 	for question in question_catalog:
@@ -136,7 +177,10 @@ def main():
 
 	for combikey, data in questions_for_tags.items():
 		key = combikey.split("=")[0]
-		value = combikey.split("=")[1]
+		try:
+			value = combikey.split("=")[1]
+		except IndexError:
+			value = None
 		AddToTags(key, value, data["elements"], getQuestionDescription(data["questions"]))
 
 
@@ -145,13 +189,19 @@ def main():
 	# Delete the files we just downloaded
 	os.remove(os.path.join(json_dir, "map_feature_collection.json"))
 	os.remove(os.path.join(json_dir, "question_catalog.json"))
+	os.remove(os.path.join(json_dir, "advanced_question_catalog.json"))
 
 	# write the taginfo.json file
 	with open(os.path.join(json_dir, "taginfo.json"), "w", encoding="utf8") as f:
 		f.write(json.dumps(TAGINFO, indent=4, ensure_ascii=False))
 
-
-question_catalog_date = get_last_commit_date("OPENER-next/OpenStop", "assets/datasets/question_catalog.json")
+# get both the date for the normal and the advanced question catalog and use the one that is more recent as the "question_catalog_date" variable
+question_catalog_date = get_last_commit_date("OPENER-next/OpenStop", "assets/question_catalog/definition.json")
+advanced_question_catalog_date = get_last_commit_date("OPENER-next/OpenStop", "assets/advanced_question_catalog/definition.json")
+# if the advanced question catalog is more recent, use that date
+if advanced_question_catalog_date > question_catalog_date:
+	question_catalog_date = advanced_question_catalog_date
+# now get the last commit date for the taginfo.json file
 taginfo_date = get_last_commit_date("OPENER-next/OpenStop-taginfo", "taginfo.json")
 
 print("question_catalog.json was last updated on " + question_catalog_date)
