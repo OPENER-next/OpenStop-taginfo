@@ -4,31 +4,6 @@ import urllib.request
 import hashlib
 import requests
 
-TAGINFO = {}
-
-TAGS = []
-
-questions_for_tags = {}
-
-NORMAL_QC = "https://raw.githubusercontent.com/OPENER-next/OpenStop/master/assets/question_catalog/definition.json"
-ADVANCED_QC = "https://raw.githubusercontent.com/OPENER-next/OpenStop/master/assets/advanced_question_catalog/definition.json"
-NORMAL_ARB = "https://raw.githubusercontent.com/OPENER-next/OpenStop/master/assets/question_catalog/locales/en.arb"
-ADVANCED_ARB = "https://raw.githubusercontent.com/OPENER-next/OpenStop/master/assets/advanced_question_catalog/locales/en.arb"
-
-
-# A dictionary that will hold all our strings from the arb-files
-TRANSLATIONS = {}
-
-# Download the arb-files from GitHub and load the strings into our translation dictionary
-for url in [NORMAL_ARB, ADVANCED_ARB]:
-    response = requests.get(url)
-    if response.status_code == 200:
-        data = response.json()
-        for key, value in data.items():
-            if not "@" in key:
-                TRANSLATIONS[key] = value
-
-
 class OpenStop:
     # contains the data for the arb and qc files, and is able to download them
     # OpenStop.question_catalog_update_time()
