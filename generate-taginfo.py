@@ -4,7 +4,7 @@ import urllib.request
 import hashlib
 import requests
 
-class OpenStop:
+class OpenStopObject:
     # contains the data for the arb and qc files, and is able to download them
     # OpenStop.question_catalog_update_time()
     # OpenStop.advanced_question_catalog_update_time()
@@ -232,7 +232,7 @@ def main():
     
 if __name__ == "__main__":
     taginfo = TagInfoObject()
-    openstop = OpenStop()
+    openstop = OpenStopObject()
     main()
 
 
