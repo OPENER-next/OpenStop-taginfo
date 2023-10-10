@@ -834,7 +834,7 @@
                 "area",
                 "relation"
             ],
-            "description": "Added by \"Is this stop lighted at night?\" question."
+            "description": "Added by \"Is this stop illuminated at night?\" question."
         },
         {
             "key": "lit",
@@ -845,7 +845,7 @@
                 "area",
                 "relation"
             ],
-            "description": "Added by \"Is this stop lighted at night?\" question."
+            "description": "Added by \"Is this stop illuminated at night?\" question."
         },
         {
             "key": "tactile_paving",
