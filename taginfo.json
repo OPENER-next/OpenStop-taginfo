@@ -569,10 +569,10 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Is there a portable wheelchair ramp?\" and \"Is there a portable wheelchair ramp?\" questions."
+            "description": "Added by \"Is there a portable wheelchair ramp?\" question."
         },
         {
-            "key": "ramp",
+            "key": "ramp:portable",
             "value": "no",
             "object_types": [
                 "node",
@@ -583,7 +583,7 @@
             "description": "Added by \"Is there a portable wheelchair ramp?\" question."
         },
         {
-            "key": "ramp:length",
+            "key": "ramp:portable:length",
             "object_types": [
                 "node",
                 "way",
@@ -593,7 +593,7 @@
             "description": "Added by \"How long is the portable wheelchair ramp?\" question."
         },
         {
-            "key": "ramp:maxweight",
+            "key": "ramp:portable:maxweight",
             "object_types": [
                 "node",
                 "way",
@@ -622,7 +622,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Is there a portable lift for wheelchair users?\" and \"Is there a portable lift for wheelchair users?\" questions."
+            "description": "Added by \"Is there a portable lift for wheelchair users?\" question."
         },
         {
             "key": "platform_lift",
