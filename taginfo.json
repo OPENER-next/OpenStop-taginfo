@@ -906,7 +906,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"What is the clearance width of the cycle barrier?\" and \"How wide is the narrowest part of the platform?\" questions."
+            "description": "Added by \"What is the clearance width of the cycle barrier?\" and \"What is the width of the narrowest part of the platform?\" questions."
         },
         {
             "key": "opening",
@@ -1048,108 +1048,353 @@
             "description": "Added by \"How long does the escalator/moving sidewalk ride take?\" question."
         },
         {
-            "key": "crossing",
-            "value": "traffic_signals",
+            "key": "crossing:markings",
+            "value": "yes",
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"What kind of pedestrian crossing is this?\" question."
+            "description": "Added by \"Are there markings at this crossing?\", \"Are there markings at this footway crossing?\" and \"Are there markings at this cycleway crossing?\" questions."
         },
         {
-            "key": "crossing",
+            "key": "footway:crossing:markings",
+            "value": "yes",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Are there markings at this crossing?\" and \"Are there markings at this crossing?\" questions."
+        },
+        {
+            "key": "cycleway:crossing:markings",
+            "value": "yes",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Are there markings at this crossing?\" and \"Are there markings at this crossing?\" questions."
+        },
+        {
+            "key": "cycleway:crossing:markings",
+            "value": "no",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Are there markings at this crossing?\" question."
+        },
+        {
+            "key": "footway:crossing:markings",
+            "value": "no",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Are there markings at this crossing?\" question."
+        },
+        {
+            "key": "crossing:markings",
+            "value": "no",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Are there markings at this crossing?\", \"Are there markings at this footway crossing?\" and \"Are there markings at this cycleway crossing?\" questions."
+        },
+        {
+            "key": "crossing:markings",
             "value": "zebra",
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"What kind of pedestrian crossing is this?\" question."
+            "description": "Added by \"Which type of markings are at this crossing?\" question."
         },
         {
-            "key": "crossing",
-            "value": "marked",
+            "key": "crossing:markings",
+            "value": "lines",
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"What kind of pedestrian crossing is this?\" question."
+            "description": "Added by \"Which type of markings are at this crossing?\" question."
         },
         {
-            "key": "crossing",
-            "value": "unmarked",
+            "key": "crossing:markings",
+            "value": "ladder",
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"What kind of pedestrian crossing is this?\" question."
+            "description": "Added by \"Which type of markings are at this crossing?\" question."
+        },
+        {
+            "key": "crossing:markings",
+            "value": "dashes",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at this crossing?\" question."
+        },
+        {
+            "key": "crossing:markings",
+            "value": "dots",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at this crossing?\" question."
+        },
+        {
+            "key": "crossing:markings",
+            "value": "surface",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at this crossing?\" question."
+        },
+        {
+            "key": "crossing:markings",
+            "value": "pictograms",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at this crossing?\" question."
+        },
+        {
+            "key": "crossing:markings",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at this crossing?\" question."
+        },
+        {
+            "key": "cycleway:crossing:markings",
+            "value": "zebra",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at the cycleway crossing?\" question."
+        },
+        {
+            "key": "cycleway:crossing:markings",
+            "value": "lines",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at the cycleway crossing?\" question."
+        },
+        {
+            "key": "cycleway:crossing:markings",
+            "value": "ladder",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at the cycleway crossing?\" question."
+        },
+        {
+            "key": "cycleway:crossing:markings",
+            "value": "dashes",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at the cycleway crossing?\" question."
+        },
+        {
+            "key": "cycleway:crossing:markings",
+            "value": "dots",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at the cycleway crossing?\" question."
+        },
+        {
+            "key": "cycleway:crossing:markings",
+            "value": "surface",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at the cycleway crossing?\" question."
+        },
+        {
+            "key": "cycleway:crossing:markings",
+            "value": "pictograms",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at the cycleway crossing?\" question."
+        },
+        {
+            "key": "cycleway:crossing:markings",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at the cycleway crossing?\" question."
+        },
+        {
+            "key": "footway:crossing:markings",
+            "value": "zebra",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at the footway crossing?\" question."
+        },
+        {
+            "key": "footway:crossing:markings",
+            "value": "lines",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at the footway crossing?\" question."
+        },
+        {
+            "key": "footway:crossing:markings",
+            "value": "ladder",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at the footway crossing?\" question."
+        },
+        {
+            "key": "footway:crossing:markings",
+            "value": "dashes",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at the footway crossing?\" question."
+        },
+        {
+            "key": "footway:crossing:markings",
+            "value": "dots",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at the footway crossing?\" question."
+        },
+        {
+            "key": "footway:crossing:markings",
+            "value": "surface",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at the footway crossing?\" question."
+        },
+        {
+            "key": "footway:crossing:markings",
+            "value": "pictograms",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at the footway crossing?\" question."
+        },
+        {
+            "key": "footway:crossing:markings",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Which type of markings are at the footway crossing?\" question."
+        },
+        {
+            "key": "crossing:signals",
+            "value": "yes",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Are there pedestrian lights at this crossing?\" and \"Are there signal lights at this tram crossing?\" questions."
+        },
+        {
+            "key": "crossing:signals",
+            "value": "no",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Are there pedestrian lights at this crossing?\", \"Are there signal lights at this tram crossing?\" and \"Are there signal lights at this tram crossing?\" questions."
+        },
+        {
+            "key": "crossing:island",
+            "value": "yes",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Is there a pedestrian island at this crossing?\" question."
+        },
+        {
+            "key": "crossing:island",
+            "value": "no",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Is there a pedestrian island at this crossing?\" question."
         },
         {
             "key": "button_operated",
             "value": "yes",
             "object_types": [
-                "node",
-                "way"
+                "node"
             ],
-            "description": "Added by \"Does the pedestrian light have a request button?\" question."
+            "description": "Added by \"Do the pedestrian lights have a request button?\" question."
         },
         {
             "key": "button_operated",
             "value": "no",
             "object_types": [
-                "node",
-                "way"
+                "node"
             ],
-            "description": "Added by \"Does the pedestrian light have a request button?\" question."
+            "description": "Added by \"Do the pedestrian lights have a request button?\" question."
         },
         {
             "key": "traffic_signals:arrow",
             "value": "yes",
             "object_types": [
-                "node",
-                "way"
+                "node"
             ],
-            "description": "Added by \"Does the pedestrian light have a tactile arrow for blind people?\" question."
+            "description": "Added by \"Do the pedestrian lights have a tactile arrow for blind people?\" question."
         },
         {
             "key": "traffic_signals:arrow",
             "value": "no",
             "object_types": [
-                "node",
-                "way"
+                "node"
             ],
-            "description": "Added by \"Does the pedestrian light have a tactile arrow for blind people?\" question."
+            "description": "Added by \"Do the pedestrian lights have a tactile arrow for blind people?\" question."
         },
         {
             "key": "traffic_signals:sound",
             "value": "yes",
             "object_types": [
-                "node",
-                "way"
+                "node"
             ],
-            "description": "Added by \"Are there acoustic signals for blind people at the pedestrian light?\" question."
+            "description": "Added by \"Are there acoustic signals for blind people at the pedestrian lights?\" question."
         },
         {
             "key": "traffic_signals:sound",
             "value": "no",
             "object_types": [
-                "node",
-                "way"
+                "node"
             ],
-            "description": "Added by \"Are there acoustic signals for blind people at the pedestrian light?\" question."
+            "description": "Added by \"Are there acoustic signals for blind people at the pedestrian lights?\" question."
         },
         {
             "key": "traffic_signals:vibration",
             "value": "yes",
             "object_types": [
-                "node",
-                "way"
+                "node"
             ],
-            "description": "Added by \"Is there a vibration signal for blind people at the pedestrian light?\" question."
+            "description": "Added by \"Is there a vibration signal for blind people at the pedestrian lights?\" question."
         },
         {
             "key": "traffic_signals:vibration",
             "value": "no",
             "object_types": [
-                "node",
-                "way"
+                "node"
             ],
-            "description": "Added by \"Is there a vibration signal for blind people at the pedestrian light?\" question."
+            "description": "Added by \"Is there a vibration signal for blind people at the pedestrian lights?\" question."
+        },
+        {
+            "key": "crossing:light",
+            "value": "no",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Are there signal lights at this tram crossing?\" and \"Is there a warning light at this railroad crossing?\" questions."
+        },
+        {
+            "key": "crossing:light",
+            "value": "yes",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Are there signal lights at this tram crossing?\" and \"Is there a warning light at this railroad crossing?\" questions."
         },
         {
             "key": "crossing:barrier",
@@ -1198,22 +1443,6 @@
                 "node"
             ],
             "description": "Added by \"How is this railroad crossing secured for pedestrians?\" and \"How is this railroad crossing secured for pedestrians?\" questions."
-        },
-        {
-            "key": "crossing:light",
-            "value": "yes",
-            "object_types": [
-                "node"
-            ],
-            "description": "Added by \"Is there a warning light at this railroad crossing?\" question."
-        },
-        {
-            "key": "crossing:light",
-            "value": "no",
-            "object_types": [
-                "node"
-            ],
-            "description": "Added by \"Is there a warning light at this railroad crossing?\" question."
         },
         {
             "key": "crossing:bell",
