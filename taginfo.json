@@ -938,7 +938,7 @@
             "description": "Added by \"What is the length of the elevator's usable area?\" question."
         },
         {
-            "key": "platform_lift:maxwidth:physical ",
+            "key": "platform_lift:maxwidth:physical",
             "object_types": [
                 "way"
             ],
