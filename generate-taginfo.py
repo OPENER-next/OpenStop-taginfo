@@ -134,9 +134,11 @@ class TagInfoObject:
             key = combikey.split("=")[0]
             try:
                 value = combikey.split("=")[1]
+                self.add_to_tags(key, value, data["elements"], self.get_question_description(data["questions"]))
             except IndexError:
+                continue
                 value = None
-            self.add_to_tags(key, value, data["elements"], self.get_question_description(data["questions"]))
+            
 
     def save_to_file(self, filename):
         with open(filename, "w", encoding="utf8") as f:
