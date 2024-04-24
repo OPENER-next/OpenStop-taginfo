@@ -174,7 +174,6 @@ class HelperFunctions:
             last_commit_date = last_commit["commit"]["committer"]["date"]
             # The date is in the format "2021-08-31T12:00:00Z", so we need to convert it to a datetime object
             last_commit_date = datetime.strptime(last_commit_date, "%Y-%m-%dT%H:%M:%SZ")
-            return datetime.now()
             return last_commit_date
             
         else:
