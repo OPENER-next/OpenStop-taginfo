@@ -78,76 +78,6 @@
             "description": "Added by \"Which modes of transportation approach this stop?\" question."
         },
         {
-            "key": "bus",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"Which modes of transportation approach this stop?\" question."
-        },
-        {
-            "key": "tram",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"Which modes of transportation approach this stop?\" question."
-        },
-        {
-            "key": "train",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"Which modes of transportation approach this stop?\" question."
-        },
-        {
-            "key": "light_rail",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"Which modes of transportation approach this stop?\" question."
-        },
-        {
-            "key": "subway",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"Which modes of transportation approach this stop?\" question."
-        },
-        {
-            "key": "monorail",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"Which modes of transportation approach this stop?\" question."
-        },
-        {
-            "key": "operator",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"Which public transport company operates this facility?\" question."
-        },
-        {
             "key": "wheelchair",
             "value": "yes",
             "object_types": [
@@ -234,16 +164,6 @@
                 "area"
             ],
             "description": "Added by \"Are there special parking spaces for disabled people?\" question."
-        },
-        {
-            "key": "capacity:disabled",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"How many disabled parking spaces are there?\" question."
         },
         {
             "key": "park_ride",
@@ -521,13 +441,6 @@
             "description": "Added by \"What kind of curb does the stop have on the roadside where the public transport vehicle stops?\" and \"What kind of curb is there?\" questions."
         },
         {
-            "key": "width",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added by \"What is the predominant width of the platform?\", \"What is the width of the entrance?\" and \"What is the width of the elevator's usable area?\" questions."
-        },
-        {
             "key": "kerb:approach_aid",
             "value": "yes",
             "object_types": [
@@ -583,26 +496,6 @@
             "description": "Added by \"Is there a portable wheelchair ramp?\" question."
         },
         {
-            "key": "ramp:portable:length",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"How long is the portable wheelchair ramp?\" question."
-        },
-        {
-            "key": "ramp:portable:maxweight",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"What is the maximum load capacity of the portable ramp?\" question."
-        },
-        {
             "key": "platform_lift",
             "value": "vertical",
             "object_types": [
@@ -634,26 +527,6 @@
                 "area"
             ],
             "description": "Added by \"Is there a portable lift for wheelchair users?\" and \"Is there a stair lift for wheelchair users?\" questions."
-        },
-        {
-            "key": "platform_lift:maxlength:physical",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"What is the length of the portable lift's usable area?\" and \"What is the length of the stair lift's usable area?\" questions."
-        },
-        {
-            "key": "platform_lift:maxweight",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"What is the maximum load capacity of the portable lift?\" question."
         },
         {
             "key": "door",
@@ -902,27 +775,6 @@
             "description": "Added by \"What kind of cycle barrier is this?\" question."
         },
         {
-            "key": "maxwidth:physical",
-            "object_types": [
-                "node"
-            ],
-            "description": "Added by \"What is the clearance width of the cycle barrier?\" and \"What is the width of the narrowest part of the platform?\" questions."
-        },
-        {
-            "key": "opening",
-            "object_types": [
-                "node"
-            ],
-            "description": "Added by \"What is the (narrowest) width of the cycle barrier opening?\" question."
-        },
-        {
-            "key": "spacing",
-            "object_types": [
-                "node"
-            ],
-            "description": "Added by \"What is the (minimum) spacing between the elements of the cycle barrier?\" question."
-        },
-        {
             "key": "platform_lift",
             "value": "yes",
             "object_types": [
@@ -931,20 +783,6 @@
             "description": "Added by \"Is there a stair lift for wheelchair users?\" question."
         },
         {
-            "key": "length",
-            "object_types": [
-                "node"
-            ],
-            "description": "Added by \"What is the length of the elevator's usable area?\" question."
-        },
-        {
-            "key": "platform_lift:maxwidth:physical",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added by \"What is the width of the stair lift's usable area?\" question."
-        },
-        {
             "key": "tactile_writing",
             "value": "yes",
             "object_types": [
@@ -987,20 +825,6 @@
                 "area"
             ],
             "description": "Added by \"Is the current floor announced in the elevator?\" question."
-        },
-        {
-            "key": "step:height",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added by \"What is the height of a single step?\" question."
-        },
-        {
-            "key": "step_count",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added by \"How many steps do the stairs have?\" question."
         },
         {
             "key": "tactile_paving",
@@ -1041,13 +865,6 @@
             "description": "Added by \"Do the stairs have a handrail?\" question."
         },
         {
-            "key": "duration",
-            "object_types": [
-                "way"
-            ],
-            "description": "Added by \"How long does the escalator/moving sidewalk ride take?\" question."
-        },
-        {
             "key": "crossing:markings",
             "value": "yes",
             "object_types": [
@@ -1152,13 +969,6 @@
             "description": "Added by \"Which type of markings are at this crossing?\" question."
         },
         {
-            "key": "crossing:markings",
-            "object_types": [
-                "node"
-            ],
-            "description": "Added by \"Which type of markings are at this crossing?\" question."
-        },
-        {
             "key": "cycleway:crossing:markings",
             "value": "zebra",
             "object_types": [
@@ -1215,13 +1025,6 @@
             "description": "Added by \"Which type of markings are at the cycleway crossing?\" question."
         },
         {
-            "key": "cycleway:crossing:markings",
-            "object_types": [
-                "node"
-            ],
-            "description": "Added by \"Which type of markings are at the cycleway crossing?\" question."
-        },
-        {
             "key": "footway:crossing:markings",
             "value": "zebra",
             "object_types": [
@@ -1272,13 +1075,6 @@
         {
             "key": "footway:crossing:markings",
             "value": "pictograms",
-            "object_types": [
-                "node"
-            ],
-            "description": "Added by \"Which type of markings are at the footway crossing?\" question."
-        },
-        {
-            "key": "footway:crossing:markings",
             "object_types": [
                 "node"
             ],
@@ -1475,25 +1271,6 @@
                 "node"
             ],
             "description": "Added by \"Does the train emit an acoustic warning signal when passing through?\" question."
-        },
-        {
-            "key": "height",
-            "object_types": [
-                "way",
-                "area",
-                "relation"
-            ],
-            "description": "Added by \"What is the height difference between the platform and the road respectively the top edge of the rail?\" question."
-        },
-        {
-            "key": "ref:IFOPT",
-            "object_types": [
-                "node",
-                "way",
-                "relation",
-                "area"
-            ],
-            "description": "Added by \"What is the IFOPT for this platform?\" and \"What is the IFOPT for the entire stop?\" questions."
         }
     ]
 }
