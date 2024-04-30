@@ -136,8 +136,7 @@ class TagInfoObject:
                 value = combikey.split("=")[1]
                 self.add_to_tags(key, value, data["elements"], self.get_question_description(data["questions"]))
             except IndexError:
-                continue
-                value = None
+                self.add_to_tags(key, None, data["elements"], self.get_question_description(data["questions"]))
             
 
     def save_to_file(self, filename):
@@ -208,7 +207,9 @@ class HelperFunctions:
         # also recognize ["answer"]["constructor"] as a place where an osm tag can be found
         if "constructor" in questionDict["answer"]:
             for key, value in questionDict["answer"]["constructor"].items():
-                taginfo_instance.add_to_questions_for_tags(key, None, str(questionDict["question"]["text"]), objecttypes)
+                # Check if answer type is Number or String
+                if questionDict["answer"]["type"] == "Number" or questionDict["answer"]["type"] == "String":
+                    taginfo_instance.add_to_questions_for_tags(key, None, str(questionDict["question"]["text"]), objecttypes)
    
 
 
@@ -236,10 +237,4 @@ if __name__ == "__main__":
     taginfo = TagInfoObject()
     openstop = OpenStopObject()
     main()
-
-
-
-
-
-
 
