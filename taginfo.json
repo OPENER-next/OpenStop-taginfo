@@ -1362,7 +1362,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Is there an acoustic warning signal when the tram passes through?\" question."
+            "description": "Added by \"tramAcousticWarningSignalText\" question."
         },
         {
             "key": "crossing:bell",
@@ -1370,7 +1370,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Is there an acoustic warning signal when the tram passes through?\" question."
+            "description": "Added by \"tramAcousticWarningSignalText\" question."
         },
         {
             "key": "crossing:whistle",
