@@ -465,7 +465,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Added by \"What is the predominant width of the platform?\", \"What is the width of the entrance?\" and \"What is the width of the elevator's usable area?\" questions."
+            "description": "Added by \"What is the predominant width of the platform?\", \"What is the width of the entrance?\", \"How wide is the opening of the partially open door?\" and \"What is the width of the elevator's usable area?\" questions."
         },
         {
             "key": "kerb:approach_aid",
@@ -690,6 +690,30 @@
                 "node"
             ],
             "description": "Added by \"How does the automatic system of the revolving door work?\" question."
+        },
+        {
+            "key": "open",
+            "value": "no",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Is the door usually open?\" question."
+        },
+        {
+            "key": "open",
+            "value": "partial",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Is the door usually open?\" question."
+        },
+        {
+            "key": "open",
+            "value": "full",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"Is the door usually open?\" question."
         },
         {
             "key": "segregated",
