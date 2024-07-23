@@ -465,7 +465,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Added by \"What is the predominant width of the platform?\", \"What is the width of the entrance?\", \"How wide is the opening of the partially open door?\" and \"What is the width of the elevator's usable area?\" questions."
+            "description": "Added by \"What is the predominant width of the platform?\", \"What is the width of the entrance?\", \"How wide is the opening of the partially open door?\", \"What is the width of the elevator's usable area?\", \"What is the height of the elevator cabin?\" and \"What is the height of the elevator door?\" questions."
         },
         {
             "key": "kerb:approach_aid",
@@ -907,6 +907,21 @@
                 "way"
             ],
             "description": "Added by \"What is the width of the stair lift's usable area?\" question."
+        },
+        {
+            "key": "diameter",
+            "object_types": [
+                "node"
+            ],
+            "description": "Added by \"What is the diameter of this elevator?\" question."
+        },
+        {
+            "key": "door:width",
+            "object_types": [
+                "node",
+                "area"
+            ],
+            "description": "Added by \"What is the width of the elevator door?\" question."
         },
         {
             "key": "tactile_writing",
