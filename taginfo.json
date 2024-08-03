@@ -533,6 +533,16 @@
             "description": "Added by \"How long is the portable wheelchair ramp?\" question."
         },
         {
+            "key": "ramp:portable:maxwidth:physical",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"How wide is the portable wheelchair ramp?\" question."
+        },
+        {
             "key": "ramp:portable:maxweight",
             "object_types": [
                 "node",
@@ -697,7 +707,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Is the door usually open?\" question."
+            "description": "Added by \"Is the door permanently open?\" question."
         },
         {
             "key": "open",
@@ -705,7 +715,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Is the door usually open?\" question."
+            "description": "Added by \"Is the door permanently open?\" question."
         },
         {
             "key": "open",
@@ -713,7 +723,7 @@
             "object_types": [
                 "node"
             ],
-            "description": "Added by \"Is the door usually open?\" question."
+            "description": "Added by \"Is the door permanently open?\" question."
         },
         {
             "key": "segregated",
