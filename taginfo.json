@@ -326,7 +326,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Does the station-wide timetable display provides speech output that can be requested manually?\" question."
+            "description": "Added by \"Does the station-wide timetable display provides speech output that can be requested manually?\" and \"Does the passenger information display at the stop provide speech output that can be requested manually?\" questions."
         },
         {
             "key": "departures_board:speech_output",
@@ -337,7 +337,7 @@
                 "relation",
                 "area"
             ],
-            "description": "Added by \"Does the station-wide timetable display provides speech output that can be requested manually?\" question."
+            "description": "Added by \"Does the station-wide timetable display provides speech output that can be requested manually?\" and \"Does the passenger information display at the stop provide speech output that can be requested manually?\" questions."
         },
         {
             "key": "passenger_information_display",
