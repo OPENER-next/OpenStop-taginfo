@@ -465,7 +465,7 @@
             "object_types": [
                 "way"
             ],
-            "description": "Added by \"What is the predominant width of the platform?\", \"What is the width of the entrance?\", \"How wide is the opening of the partially open door?\", \"What is the width of the elevator's usable area?\", \"What is the height of the elevator cabin?\" and \"What is the height of the elevator door?\" questions."
+            "description": "Added by \"What is the predominant width of the platform?\", \"What is the width of the entrance?\", \"How wide is the opening of the partially open door?\" and \"What is the width of the elevator's usable area?\" questions."
         },
         {
             "key": "kerb:approach_aid",
@@ -788,7 +788,7 @@
                 "way",
                 "area"
             ],
-            "description": "Added by \"What is the surface of the cycle line like?\" question."
+            "description": "Added by \"What is the surface of the cycle path?\" question."
         },
         {
             "key": "cycleway:surface",
@@ -797,7 +797,7 @@
                 "way",
                 "area"
             ],
-            "description": "Added by \"What is the surface of the cycle line like?\" question."
+            "description": "Added by \"What is the surface of the cycle path?\" question."
         },
         {
             "key": "lit",
@@ -919,6 +919,16 @@
             "description": "Added by \"What is the width of the stair lift's usable area?\" question."
         },
         {
+            "key": "height",
+            "object_types": [
+                "node",
+                "way",
+                "relation",
+                "area"
+            ],
+            "description": "Added by \"What is the height of the elevator cabin?\" and \"What is the height difference between the platform and the road respectively the top edge of the rail?\" questions."
+        },
+        {
             "key": "diameter",
             "object_types": [
                 "node"
@@ -932,6 +942,14 @@
                 "area"
             ],
             "description": "Added by \"What is the width of the elevator door?\" question."
+        },
+        {
+            "key": "door:height",
+            "object_types": [
+                "node",
+                "area"
+            ],
+            "description": "Added by \"What is the height of the elevator door?\" question."
         },
         {
             "key": "tactile_writing",
@@ -1436,15 +1454,6 @@
                 "node"
             ],
             "description": "Added by \"Does the train emit an acoustic warning signal when passing through?\" question."
-        },
-        {
-            "key": "height",
-            "object_types": [
-                "way",
-                "area",
-                "relation"
-            ],
-            "description": "Added by \"What is the height difference between the platform and the road respectively the top edge of the rail?\" question."
         },
         {
             "key": "ref:IFOPT",
